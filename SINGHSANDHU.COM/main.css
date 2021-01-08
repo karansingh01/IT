@@ -125,7 +125,7 @@ grid-column: span 10;
 
 
 header{
-  background-image: url(astronomy-beautiful-clouds-355465.jpg);
+  background-image: url(bilder/astronomy-beautiful-clouds-355465.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%;
@@ -247,11 +247,24 @@ margin:0px;
 font-size: 50px;
 }
 
+#cv{
+  display: block;
+  margin:auto;
+  text-align: center;
+  padding:25px 7px;
+  background-color: salmon;
+  border-radius:4px;
+  box-shadow: 0 1px 5px blue
+}
+
 .alt_lært{
   background-color: #f7edf0;
+  display: block;
 }
 .hva_jeg_lært{
 padding-top: 60px;
+display: block;
+
 }
   /* Teksten øverst i tabellen som viser hva du er inne på og innenfor a*/
   .klær_tekst>a {
@@ -267,7 +280,7 @@ padding-top: 60px;
   }
 
   /* Make sure that padding behaves as expected */
-  * {box-sizing:border-box}
+  *{box-sizing:border-box}
 
   /* Container for skill bars */
   .container {
@@ -281,14 +294,16 @@ padding-top: 60px;
     color: white; /* White text color */
   }
 
-  .html {width: 70%; background-color: #4CAF50;} /* Green */
-  .css {width: 60%; background-color: #2196F3;} /* Blue */
-  .js {width: 7%; background-color: #f44336;} /* Red */
+  .html {width: 97%; background-color: #4CAF50;} /* Green */
+  .css {width: 96%; background-color: #2196F3;} /* Blue */
+  .js {width: 80%; background-color: #f44336;} /* Red */
+  .pyt {width: 85%; background-color: salmon;}
+  .java {width: 75%; background-color: blue;}
 
 
 
 .main_hoved{
-  grid-column: span 6;
+  grid-column: span 3;
 }
 
 .det_jeg_har_lært{
@@ -296,7 +311,7 @@ padding-top: 60px;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.HTML , .CSS , .JS{
+.HTML , .CSS , .JS, .PYT, .JAVA{
   border-style: solid;
   border-color: darkgrey;
   border-width: 5px;

@@ -3,7 +3,6 @@ html{
 }
 
 /*css for hele body når den er større enn 600px starter under her*/
-@media only screen and (min-width: 600px) {
   body {
     /*gjør slik at det ikke er noe avstand mellom body og det som er utenfor*/
     margin: 0px;
@@ -11,12 +10,35 @@ html{
     /*gir body en bakgrunnsfarge*/
     background-color: #dbdde0;
   }
+
+
+@media only screen and (max-width: 890px) {
+footer{
+  display: none;
+}
+
+
+tr>th>a{
+  display: none;
+}
+
+.hele_footer{
+  display: none;
+}
+
+.om_oss_footer{
+  display: none;
+}
+.mine_sider{
+  display: block;
+}
+
 }
 
 
 
 /*css for hele delen over søkemotoren av header når den er større enn 600px starter under her*/
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1200px) {
   .header_øverst {
     text-align: center;
     /* styler tekst*/
@@ -28,7 +50,12 @@ html{
     height: 755px;
   }
 }
+@media only screen and (max-width: 1199px) {
+.header_øverst{
+  display: none;
+}
 
+}
 
 
 .knapp_header>a{
@@ -126,6 +153,7 @@ grid-column: span 10;
 
 header{
   background-image: url(bilder/astronomy-beautiful-clouds-355465.jpg);
+
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%;
@@ -136,6 +164,7 @@ img:hover{
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.1);
+  transition: all 0.8s ease-in-out;
 }
 
 /* Style the tab buttons */
@@ -148,7 +177,7 @@ img:hover{
   cursor: pointer;
   padding: 24px 16px;
   margin-top: 0px;
-  font-size: 17px;
+  font-size: 1.4vw;
   width: 20%;
 }
 
@@ -212,14 +241,13 @@ transition: all ease-in-out 350ms;
 
 
 /*css for main større enn 600px starter under her*/
-@media only screen and (min-width: 600px) {
   main {
     /* endrer plassering og bakgrunn */
     margin: 0px 0px;
     background-color: #fff2ea;
     padding-top: 40px;
   }
-}
+
 
 .main_hoved{
   /* styler tekst. */
@@ -229,9 +257,14 @@ transition: all ease-in-out 350ms;
   text-align: center;
 }
 
+.alt_meg{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5% 15%;
+}
 
 .fakta_om_meg{
-  margin:20px 300px;
+  margin: 20px
   color: #7D7D7D;
   font-size: 25px;
   padding-bottom: 20px;
@@ -247,6 +280,20 @@ margin:0px;
 font-size: 50px;
 }
 
+
+.profilimg{
+width: 60%;
+padding: 0px;
+margin: 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+.profilimg{
+  padding-top: 5%;
+width: 90%;
+}
+}
+
 #cv{
   display: block;
   margin:auto;
@@ -254,7 +301,8 @@ font-size: 50px;
   padding:25px 7px;
   background-color: salmon;
   border-radius:4px;
-  box-shadow: 0 1px 5px
+  box-shadow: 0 1px 5px;
+  color: black;
 }
 
 .alt_lært{
@@ -323,7 +371,6 @@ display: block;
 .mine_nettsider{
   background-color: #f2e1e7;
   margin: 0px;
-  padding: 0px 150px;
   text-decoration: none;
   font-size: 20px;
   font-weight: 400;
@@ -362,7 +409,7 @@ img{
 }
 
 /*Footer starter her*/
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
   .hele_footer {
     background-color: black;
     color: white;
@@ -370,11 +417,24 @@ img{
     grid-template-columns: repeat(4, 1fr);
     text-decoration: none;
     font-weight: normal;
-    padding: 60px 100px;
-    margin: 0px;
+    padding: 5% 10%;
+    padding-top: 3%;
+  }
+}
+/*
+@media only screen and (max-width: 900px) {
+  .om_oss_footer>table {
+    display: none;
+  }
+  .sosial_footer{
+    display: none;
+  }
+  .hele_footer{
+    background-color: black;
   }
 }
 
+*/
 th>a {
   text-decoration: none;
   color: white;
@@ -385,14 +445,6 @@ td>a {
   color: white;
 }
 
-@media only screen and (min-width: 600px) {
-  .sosbilder {
-    width: 40px;
-    height: 40px;
-    border-radius: 15px;
-    margin: 15px;
-  }
-}
 
 thead {
   text-decoration: underline;
@@ -407,8 +459,13 @@ tbody {
   font-weight: lighter;
 }
 .om_oss_footer{
-  padding-top:30px;
+  margin-top: 30px;
+  padding:30px;
 }
+
 .sosial_footer{
-  padding-top: 20px;
+  font-size: 20px;
+  font-family: monospace;
+  text-decoration: none;
+  font-weight: normal;
 }

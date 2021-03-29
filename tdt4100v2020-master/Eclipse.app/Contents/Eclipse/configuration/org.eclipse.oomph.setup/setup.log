@@ -1,0 +1,1299 @@
+[2021-02-08 13:42:43] Executing bootstrap tasks
+[2021-02-08 13:42:43] OpenJDK Runtime Environment 15.0.2+7-27
+[2021-02-08 13:42:43] Product user.products.tdt4100.2020-12
+[2021-02-08 13:42:43] Workspace /Users/karansingh/IT/tdt4100v2020-master/ws
+[2021-02-08 13:42:43] Project com.github.user.project.tdt4100-v2020.master
+[2021-02-08 13:42:43] Bundle org.eclipse.oomph.setup 1.18.0.v20201230-0937, build=4992, branch=61e44df49f5dda87144e13d7167579fde8d855c3
+[2021-02-08 13:42:43] Bundle org.eclipse.oomph.setup.core 1.19.0.v20210111-1121, build=4992, branch=61e44df49f5dda87144e13d7167579fde8d855c3
+[2021-02-08 13:42:43] Bundle org.eclipse.oomph.setup.installer 1.20.0.v20210205-0550, build=4992, branch=61e44df49f5dda87144e13d7167579fde8d855c3
+[2021-02-08 13:42:43] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=4992, branch=61e44df49f5dda87144e13d7167579fde8d855c3
+[2021-02-08 13:42:43] Performing Workspace /Users/karansingh/IT/tdt4100v2020-master/ws
+[2021-02-08 13:42:43] Performing P2 Director (TDT4100 (TDT4100-v2021 (2020-12)) + JRE 15.0.2)
+[2021-02-08 13:42:43] Offline = false
+[2021-02-08 13:42:43] Mirrors = true
+[2021-02-08 13:42:43] Resolving 19 requirements from 8 repositoriesto /Users/karansingh/IT/tdt4100v2020-master/Eclipse.app/Contents/Eclipse
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.justj.openjdk.hotspot.jre.full.feature.group (filter=(|(&(osgi.arch=x86_64)(osgi.os=linux))(&(osgi.arch=aarch64)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=win32))))
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.ide
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.pde.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.fx.ide.basic.feature.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.fx.ide.css.feature.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.fx.ide.fxml.feature.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:net.sourceforge.plantuml.feature.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext_feature.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:no.hal.learning.exercise.feature.feature.group [0.1.0.202001020956,0.1.0.202001020956]
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:jdt-codemining-feature.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.git.feature.group
+[2021-02-08 13:42:43] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.projects.feature.group
+[2021-02-08 13:42:43] Repository http://download.eclipse.org/justj/jres/15/updates/release/15.0.2
+[2021-02-08 13:42:43] Repository http://download.eclipse.org/releases/2020-12
+[2021-02-08 13:42:43] Repository http://download.eclipse.org/efxclipse/updates-released/3.7.0/site/
+[2021-02-08 13:42:43] Repository http://hallvard.github.io/plantuml/
+[2021-02-08 13:42:43] Repository http://oss.opensagres.fr/jdt-codemining/snapshot/
+[2021-02-08 13:42:43] Repository https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository
+[2021-02-08 13:42:43] Repository http://download.eclipse.org/oomph/updates/latest
+[2021-02-08 13:42:43] Repository http://download.eclipse.org/egit/updates
+[2021-02-08 13:42:52] Calculating requirements and dependencies.
+[2021-02-08 13:42:55] Computing prerequisite plan
+[2021-02-08 13:42:56] Fetching artifacts.xml.xz from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/ (1.59kB)
+[2021-02-08 13:43:00] Collecting 3 artifacts from http://download.eclipse.org/releases/2020-12
+[2021-02-08 13:43:05] Downloading org.eclipse.platform_root
+[2021-02-08 13:43:05] Downloading org.eclipse.platform.ide.executable.cocoa.macosx.x86_64
+[2021-02-08 13:43:05] Downloading org.eclipse.rcp_root
+[2021-02-08 13:43:06] Collected 3 artifacts for http://download.eclipse.org/releases/2020-12 in 5.467s
+[2021-02-08 13:43:11] Installing com.google.gson [2.8.6.v20201231-1626]
+[2021-02-08 13:43:11] Installing com.google.guava [27.1.0.v20190517-1946]
+[2021-02-08 13:43:11] Installing com.google.inject [3.0.0.v201605172100]
+[2021-02-08 13:43:11] Installing com.ibm.icu [67.1.0.v20200706-1749]
+[2021-02-08 13:43:11] Installing com.jcraft.jsch [0.1.55.v20190404-1902]
+[2021-02-08 13:43:11] Installing com.sun.el [2.2.0.v201303151357]
+[2021-02-08 13:43:11] Installing com.sun.jna [4.5.1.v20190425-1842]
+[2021-02-08 13:43:11] Installing com.sun.jna.platform [4.5.1.v20190425-1842]
+[2021-02-08 13:43:11] Installing com.sun.xml.bind [2.2.0.v20201118-1845]
+[2021-02-08 13:43:11] Installing exp4j [0.4.6.202001020956]
+[2021-02-08 13:43:11] Installing io.github.classgraph [4.8.35.v20190528-1517]
+[2021-02-08 13:43:11] Installing javaewah [1.1.7.v20200107-0831]
+[2021-02-08 13:43:11] Installing javax.activation [1.1.0.v201211130549]
+[2021-02-08 13:43:11] Installing javax.annotation [1.3.5.v20200909-1856]
+[2021-02-08 13:43:11] Installing javax.el [2.2.0.v201303151357]
+[2021-02-08 13:43:11] Installing javax.inject [1.0.0.v20091030]
+[2021-02-08 13:43:11] Installing javax.servlet [3.1.0.v201410161800]
+[2021-02-08 13:43:11] Installing javax.servlet.jsp [2.2.0.v201112011158]
+[2021-02-08 13:43:11] Installing javax.xml [1.3.4.v201005080400]
+[2021-02-08 13:43:11] Installing javax.xml.bind [2.2.0.v201105210648]
+[2021-02-08 13:43:11] Installing javax.xml.stream [1.0.1.v201004272200]
+[2021-02-08 13:43:11] Installing jdt-codemining-feature.feature.group [1.0.0.201812140938]
+[2021-02-08 13:43:11] Installing jdt-codemining-feature.feature.jar [1.0.0.201812140938]
+[2021-02-08 13:43:11] Installing net.i2p.crypto.eddsa [0.3.0.v20181102-1323]
+[2021-02-08 13:43:11] Installing net.sourceforge.plantuml.eclipse [1.1.24]
+[2021-02-08 13:43:11] Installing net.sourceforge.plantuml.eclipse.imagecontrol [1.1.24]
+[2021-02-08 13:43:11] Installing net.sourceforge.plantuml.feature.feature.group [1.1.24]
+[2021-02-08 13:43:11] Installing net.sourceforge.plantuml.feature.feature.jar [1.1.24]
+[2021-02-08 13:43:11] Installing net.sourceforge.plantuml.jdt [1.1.24]
+[2021-02-08 13:43:11] Installing net.sourceforge.plantuml.lib [1.2019.11]
+[2021-02-08 13:43:11] Installing net.sourceforge.plantuml.lib.feature.feature.group [1.2019.11]
+[2021-02-08 13:43:11] Installing net.sourceforge.plantuml.lib.feature.feature.jar [1.2019.11]
+[2021-02-08 13:43:11] Installing net.sourceforge.plantuml.text [1.1.24]
+[2021-02-08 13:43:11] Installing no.hal.emf.ui.utils [0.1.1.202001020956]
+[2021-02-08 13:43:11] Installing no.hal.emf.ui.utils.feature.feature.group [0.1.1.202001020956]
+[2021-02-08 13:43:11] Installing no.hal.emf.ui.utils.feature.feature.jar [0.1.1.202001020956]
+[2021-02-08 13:43:11] Installing no.hal.learning.exercise.feature.feature.group [0.1.0.202001020956]
+[2021-02-08 13:43:11] Installing no.hal.learning.exercise.feature.feature.jar [0.1.0.202001020956]
+[2021-02-08 13:43:11] Installing no.hal.learning.exercise.jdt [0.1.0.202001020956]
+[2021-02-08 13:43:11] Installing no.hal.learning.exercise.jdt.ecore [0.1.0.202001020956]
+[2021-02-08 13:43:11] Installing no.hal.learning.exercise.junit [0.1.0.202001020956]
+[2021-02-08 13:43:11] Installing no.hal.learning.exercise.model [0.1.0.202001020956]
+[2021-02-08 13:43:11] Installing no.hal.learning.exercise.model.ui [0.1.0.202001020956]
+[2021-02-08 13:43:11] Installing no.hal.learning.exercise.workbench [0.1.0.202001020956]
+[2021-02-08 13:43:11] Installing no.hal.learning.exercise.workspace [0.1.0.202001020956]
+[2021-02-08 13:43:11] Installing org.antlr.runtime [3.2.0.v201101311130]
+[2021-02-08 13:43:11] Installing org.apache.ant [1.10.9.v20201106-1946]
+[2021-02-08 13:43:11] Installing org.apache.batik.constants [1.13.0.v20200622-2037]
+[2021-02-08 13:43:11] Installing org.apache.batik.css [1.13.0.v20200622-2037]
+[2021-02-08 13:43:11] Installing org.apache.batik.i18n [1.13.0.v20200622-2037]
+[2021-02-08 13:43:11] Installing org.apache.batik.util [1.13.0.v20200622-2037]
+[2021-02-08 13:43:11] Installing org.apache.commons.codec [1.14.0.v20200818-1422]
+[2021-02-08 13:43:11] Installing org.apache.commons.compress [1.19.0.v20200106-2343]
+[2021-02-08 13:43:11] Installing org.apache.commons.httpclient [3.1.0.v201012070820]
+[2021-02-08 13:43:11] Installing org.apache.commons.io [2.6.0.v20190123-2029]
+[2021-02-08 13:43:11] Installing org.apache.commons.jxpath [1.3.0.v200911051830]
+[2021-02-08 13:43:11] Installing org.apache.commons.lang [2.6.0.v201404270220]
+[2021-02-08 13:43:11] Installing org.apache.commons.lang3 [3.1.0.v201403281430]
+[2021-02-08 13:43:11] Installing org.apache.commons.logging [1.2.0.v20180409-1502]
+[2021-02-08 13:43:11] Installing org.apache.felix.gogo.command [1.1.0.v20201023-1558]
+[2021-02-08 13:43:11] Installing org.apache.felix.gogo.runtime [1.1.2.v20201023-1558]
+[2021-02-08 13:43:11] Installing org.apache.felix.gogo.shell [1.1.2.v20201023-1558]
+[2021-02-08 13:43:11] Installing org.apache.felix.scr [2.1.24.v20200924-1939]
+[2021-02-08 13:43:11] Installing org.apache.httpcomponents.httpclient [4.5.10.v20200830-2311]
+[2021-02-08 13:43:11] Installing org.apache.httpcomponents.httpcore [4.4.12.v20200108-1212]
+[2021-02-08 13:43:11] Installing org.apache.jasper.glassfish [2.2.2.v201501141630]
+[2021-02-08 13:43:11] Installing org.apache.log4j [1.2.15.v201012070815]
+[2021-02-08 13:43:11] Installing org.apache.lucene.analyzers-common [6.1.0.v20161115-1612]
+[2021-02-08 13:43:11] Installing org.apache.lucene.analyzers-smartcn [8.4.1.v20200122-1459]
+[2021-02-08 13:43:11] Installing org.apache.lucene.core [8.4.1.v20200122-1459]
+[2021-02-08 13:43:11] Installing org.apache.lucene.queryparser [6.1.0.v20161115-1612]
+[2021-02-08 13:43:11] Installing org.apache.sshd.osgi [2.4.0.v20200318-1614]
+[2021-02-08 13:43:11] Installing org.apache.sshd.sftp [2.4.0.v20200319-1547]
+[2021-02-08 13:43:11] Installing org.apache.xerces [2.9.0.v201101211617]
+[2021-02-08 13:43:11] Installing org.apache.xml.resolver [1.2.0.v201005080400]
+[2021-02-08 13:43:11] Installing org.apache.xml.serializer [2.7.1.v201005080400]
+[2021-02-08 13:43:11] Installing org.apache.xmlgraphics [2.4.0.v20200622-2037]
+[2021-02-08 13:43:11] Installing org.apiguardian [1.1.0.v20190826-0900]
+[2021-02-08 13:43:11] Installing org.bouncycastle.bcpg [1.65.0.v20200527-1955]
+[2021-02-08 13:43:11] Installing org.bouncycastle.bcprov [1.65.1.v20200529-1514]
+[2021-02-08 13:43:11] Installing org.eclipse.ant.core [3.5.800.v20200608-1251]
+[2021-02-08 13:43:11] Installing org.eclipse.ant.launching [1.2.1000.v20200610-1458]
+[2021-02-08 13:43:11] Installing org.eclipse.ant.ui [3.7.1000.v20201116-1127]
+[2021-02-08 13:43:11] Installing org.eclipse.cdt.core.macosx [6.0.100.202011041837]
+[2021-02-08 13:43:11] Installing org.eclipse.cdt.core.native [6.1.0.202011181638]
+[2021-02-08 13:43:11] Installing org.eclipse.compare [3.7.1200.v20201020-1107]
+[2021-02-08 13:43:11] Installing org.eclipse.compare.core [3.6.1000.v20201020-1107]
+[2021-02-08 13:43:11] Installing org.eclipse.core.commands [3.9.800.v20201021-1339]
+[2021-02-08 13:43:11] Installing org.eclipse.core.contenttype [3.7.800.v20200724-0804]
+[2021-02-08 13:43:11] Installing org.eclipse.core.databinding [1.10.100.v20200926-1123]
+[2021-02-08 13:43:11] Installing org.eclipse.core.databinding.beans [1.7.100.v20201021-1339]
+[2021-02-08 13:43:11] Installing org.eclipse.core.databinding.observable [1.10.0.v20200730-0848]
+[2021-02-08 13:43:11] Installing org.eclipse.core.databinding.property [1.8.100.v20200619-0651]
+[2021-02-08 13:43:11] Installing org.eclipse.core.expressions [3.7.0.v20200720-1126]
+[2021-02-08 13:43:11] Installing org.eclipse.core.externaltools [1.1.800.v20201105-0600]
+[2021-02-08 13:43:11] Installing org.eclipse.core.filebuffers [3.6.1100.v20201029-1159]
+[2021-02-08 13:43:11] Installing org.eclipse.core.filesystem [1.7.700.v20200110-1734]
+[2021-02-08 13:43:11] Installing org.eclipse.core.filesystem.macosx [1.3.200.v20190903-0945]
+[2021-02-08 13:43:11] Installing org.eclipse.core.jobs [3.10.1000.v20200909-1312]
+[2021-02-08 13:43:11] Installing org.eclipse.core.net [1.3.1000.v20200715-0827]
+[2021-02-08 13:43:11] Installing org.eclipse.core.resources [3.13.900.v20201105-1507]
+[2021-02-08 13:43:11] Installing org.eclipse.core.runtime [3.20.0.v20201027-1526]
+[2021-02-08 13:43:11] Installing org.eclipse.core.variables [3.4.800.v20200120-1101]
+[2021-02-08 13:43:11] Installing org.eclipse.debug.core [3.17.0.v20201109-1948]
+[2021-02-08 13:43:11] Installing org.eclipse.debug.ui [3.14.700.v20201123-0650]
+[2021-02-08 13:43:11] Installing org.eclipse.draw2d [3.10.100.201606061308]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.core.commands [0.13.0.v20201119-1132]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.core.contexts [1.8.400.v20191217-1710]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.core.di [1.7.600.v20200428-0912]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.core.di.annotations [1.6.600.v20191216-2352]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.core.di.extensions [0.16.0.v20200507-0938]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.core.di.extensions.supplier [0.15.700.v20200622-1247]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.core.services [2.2.500.v20200928-2213]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.emf.xpath [0.2.800.v20200609-0849]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.rcp.feature.group [4.18.0.v20201202-1103]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.rcp.feature.jar [4.18.0.v20201202-1103]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.bindings [0.13.0.v20201119-1132]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.css.core [0.13.0.v20201015-0653]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.css.swt [0.14.0.v20201103-0952]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.css.swt.theme [0.13.0.v20201026-1147]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.di [1.2.900.v20201021-1339]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.dialogs [1.2.100.v20201109-2317]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.ide [3.15.100.v20200323-2111]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.model.workbench [2.1.900.v20201014-0742]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.services [1.4.0.v20201014-0944]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.widgets [1.2.800.v20201021-1339]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.workbench [1.12.0.v20201119-1132]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.workbench.addons.swt [1.4.0.v20201119-1132]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.workbench.renderers.swt [0.15.0.v20201125-0918]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.workbench.renderers.swt.cocoa [0.12.600.v20200416-0656]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.workbench.swt [0.15.0.v20201103-0952]
+[2021-02-08 13:43:11] Installing org.eclipse.e4.ui.workbench3 [0.15.500.v20201021-1339]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf [3.9.101.v20201027-0547]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.core.feature.feature.group [1.5.701.v20201027-0550]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.core.feature.feature.jar [1.5.701.v20201027-0550]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.core.ssl.feature.feature.group [1.1.500.v20200812-2314]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.core.ssl.feature.feature.jar [1.1.500.v20200812-2314]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.filetransfer [5.1.101.v20201025-2315]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.filetransfer.feature.feature.group [3.14.1702.v20201025-2315]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.filetransfer.feature.feature.jar [3.14.1702.v20201025-2315]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.filetransfer.httpclient45.feature.feature.group [1.0.702.v20201025-2303]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.filetransfer.httpclient45.feature.feature.jar [1.0.702.v20201025-2303]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.group [1.1.400.v20200812-2314]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.jar [1.1.400.v20200812-2314]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.identity [3.9.401.v20201027-0550]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.provider.filetransfer [3.2.601.v20201025-0700]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.provider.filetransfer.httpclient45 [1.0.301.v20201025-0700]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.provider.filetransfer.ssl [1.0.200.v20200611-1836]
+[2021-02-08 13:43:11] Installing org.eclipse.ecf.ssl [1.2.400.v20200611-2220]
+[2021-02-08 13:43:11] Installing org.eclipse.egit [5.10.0.202012080955-r]
+[2021-02-08 13:43:11] Installing org.eclipse.egit.codemining [1.0.0.201812140938]
+[2021-02-08 13:43:11] Installing org.eclipse.egit.core [5.10.0.202012080955-r]
+[2021-02-08 13:43:11] Installing org.eclipse.egit.doc [5.10.0.202012080955-r]
+[2021-02-08 13:43:11] Installing org.eclipse.egit.feature.group [5.10.0.202012080955-r]
+[2021-02-08 13:43:11] Installing org.eclipse.egit.feature.jar [5.10.0.202012080955-r]
+[2021-02-08 13:43:11] Installing org.eclipse.egit.ui [5.10.0.202012080955-r]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.common [2.21.0.v20200917-1439]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.common.feature.group [2.21.0.v20200917-1439]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.common.feature.jar [2.21.0.v20200917-1439]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.common.ui [2.18.0.v20190507-0402]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.databinding [1.5.0.v20180706-1146]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.databinding.edit [1.6.0.v20190323-1031]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.ecore [2.23.0.v20200630-0516]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.ecore.change [2.14.0.v20190528-0725]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.ecore.edit [2.13.0.v20190822-1451]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.ecore.editor [2.17.0.v20190528-0725]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.ecore.feature.group [2.23.0.v20200630-0516]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.ecore.feature.jar [2.23.0.v20200630-0516]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.ecore.xmi [2.16.0.v20190528-0725]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.edit [2.16.0.v20190920-0401]
+[2021-02-08 13:43:11] Installing org.eclipse.emf.edit.ui [2.19.0.v20200917-1406]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.app [1.5.0.v20200717-0620]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.bidi [1.3.0.v20200612-1624]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.common [3.14.0.v20201102-2053]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.concurrent [1.1.500.v20200106-1437]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.console [1.4.200.v20200828-1034]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.event [1.5.500.v20200616-0800]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.frameworkadmin [2.1.400.v20191002-0702]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.frameworkadmin.equinox [1.1.400.v20200319-1546]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.http.jetty [3.7.500.v20200915-1207]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.http.registry [1.2.0.v20200614-1851]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.http.servlet [1.6.700.v20201109-1600]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.jsp.jasper [1.1.500.v20200422-1833]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.jsp.jasper.registry [1.1.400.v20200422-1833]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.launcher [1.6.0.v20200915-1508]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.launcher.cocoa.macosx.x86_64 [1.2.0.v20200915-1442]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.artifact.repository [1.3.500.v20200406-2025]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.console [1.1.400.v20201106-0859]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.core [2.6.300.v20200211-1504]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.core.feature.feature.group [1.6.800.v20201106-1246]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.core.feature.feature.jar [1.6.800.v20201106-1246]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.director [2.4.700.v20200511-1530]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.director.app [1.1.600.v20200511-1530]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.directorywatcher [1.2.500.v20191211-1631]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.discovery [1.1.200.v20190611-1008]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.discovery.compatibility [1.2.0.v20200916-1234]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.engine [2.6.700.v20200511-1530]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.extensionlocation [1.3.400.v20191213-1911]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.extras.feature.feature.group [1.4.1000.v20201106-1246]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.extras.feature.feature.jar [1.4.1000.v20201106-1246]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.garbagecollector [1.1.400.v20200221-1022]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.jarprocessor [1.1.700.v20200904-1601]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.metadata [2.5.100.v20200908-1020]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.metadata.repository [1.3.400.v20191211-1528]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.operations [2.5.1000.v20201106-1246]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.publisher [1.5.400.v20200511-1530]
+[2021-02-08 13:43:11] Installing org.eclipse.equinox.p2.publisher.eclipse [1.3.700.v20200828-0839]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.rcp.feature.feature.group [1.4.1000.v20201106-1246]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.rcp.feature.feature.jar [1.4.1000.v20201106-1246]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.reconciler.dropins [1.3.400.v20200511-1530]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.repository [2.5.0.v20201013-0853]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.repository.tools [2.2.500.v20200110-2121]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.touchpoint.eclipse [2.2.700.v20200813-0739]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.touchpoint.natives [1.3.600.v20200511-1530]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.transport.ecf [1.3.0.v20201012-1345]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.ui [2.6.100.v20200731-1005]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.ui.discovery [1.2.0.v20200916-1234]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.ui.importexport [1.2.600.v20201015-1002]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.ui.sdk [1.1.700.v20200731-1005]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.ui.sdk.scheduler [1.5.0.v20201012-1421]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.updatechecker [1.2.300.v20200222-1600]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.updatesite [1.1.400.v20200511-1530]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.user.ui.feature.group [2.4.1000.v20201106-1246]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.p2.user.ui.feature.jar [2.4.1000.v20201106-1246]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.preferences [3.8.100.v20201102-2042]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.registry [3.10.0.v20201107-1818]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.security [1.3.500.v20200114-1637]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.security.macosx [1.101.200.v20190903-0934]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.security.ui [1.2.700.v20200807-1518]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.simpleconfigurator [1.3.600.v20200721-1308]
+[2021-02-08 13:43:12] Installing org.eclipse.equinox.simpleconfigurator.manipulator [2.1.500.v20200211-1505]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.core [3.7.0.202010120750]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.core.guice [3.7.0.202010120750]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.basic.feature.feature.group [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.basic.feature.feature.jar [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.css [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.css.cssext [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.css.cssext.proposals [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.css.cssext.ui [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.css.feature.feature.group [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.css.feature.feature.jar [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.css.jfx2 [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.css.jfx8 [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.css.ui [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.fxml [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.fxml.feature.feature.group [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.fxml.feature.feature.jar [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.jdt.core [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.jdt.ui [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.model [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.ui [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ide.ui.preview [3.7.0.202010120832]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.osgi [3.7.0.202010120826]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.osgi.util [3.7.0.202010120750]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.runtime.min.feature.feature.group [3.7.0.202010120826]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.runtime.min.feature.feature.jar [3.7.0.202010120826]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ui.animation [3.7.0.202010120750]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ui.controls [3.7.0.202010120750]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ui.panes [3.7.0.202010120750]
+[2021-02-08 13:43:12] Installing org.eclipse.fx.ui.workbench3 [3.7.0.202010120826]
+[2021-02-08 13:43:12] Installing org.eclipse.gef [3.11.0.201606061308]
+[2021-02-08 13:43:12] Installing org.eclipse.help [3.8.800.v20200525-0755]
+[2021-02-08 13:43:12] Installing org.eclipse.help.base [4.3.100.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.help.feature.group [2.3.400.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.help.feature.jar [2.3.400.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.help.ui [4.2.100.v20200923-2139]
+[2021-02-08 13:43:12] Installing org.eclipse.help.webapp [3.10.100.v20201130-2122]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt [3.18.600.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.annotation [1.1.500.v20200407-1355]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.apt.core [3.6.800.v20200916-0645]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.apt.pluggable.core [1.2.500.v20200322-1447]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.apt.ui [3.6.500.v20200828-1336]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.codemining [1.0.0.201812140938]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.compiler.apt [1.3.1200.v20200916-0645]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.compiler.tool [1.2.1100.v20200916-0645]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.core [3.24.0.v20201123-0742]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.core.formatterapp [1.0.0.v20200119-0748]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.core.manipulation [1.14.200.v20201124-1435]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.debug [3.17.0.v20201117-1145]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.debug.ui [3.12.100.v20201118-1524]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.doc.user [3.15.900.v20201201-1641]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.feature.group [3.18.600.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.feature.jar [3.18.600.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.junit [3.11.1000.v20201120-2059]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.junit.core [3.10.900.v20201120-2059]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.junit.runtime [3.5.400.v20201120-2059]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.junit4.runtime [1.1.1400.v20200917-1125]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.junit5.runtime [1.0.1100.v20200928-0432]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.launching [3.19.0.v20201106-0848]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.launching.macosx [3.4.500.v20200116-2251]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.launching.ui.macosx [1.2.600.v20200204-1737]
+[2021-02-08 13:43:12] Installing org.eclipse.jdt.ui [3.22.0.v20201121-1451]
+[2021-02-08 13:43:12] Installing org.eclipse.jem.util [2.1.202.v202007142017]
+[2021-02-08 13:43:12] Installing org.eclipse.jetty.continuation [9.4.35.v20201120]
+[2021-02-08 13:43:12] Installing org.eclipse.jetty.http [9.4.35.v20201120]
+[2021-02-08 13:43:12] Installing org.eclipse.jetty.io [9.4.35.v20201120]
+[2021-02-08 13:43:12] Installing org.eclipse.jetty.security [9.4.35.v20201120]
+[2021-02-08 13:43:12] Installing org.eclipse.jetty.server [9.4.35.v20201120]
+[2021-02-08 13:43:12] Installing org.eclipse.jetty.servlet [9.4.35.v20201120]
+[2021-02-08 13:43:12] Installing org.eclipse.jetty.util [9.4.35.v20201120]
+[2021-02-08 13:43:12] Installing org.eclipse.jetty.util.ajax [9.4.35.v20201120]
+[2021-02-08 13:43:12] Installing org.eclipse.jface [3.22.0.v20201106-0834]
+[2021-02-08 13:43:12] Installing org.eclipse.jface.databinding [1.12.100.v20201014-0742]
+[2021-02-08 13:43:12] Installing org.eclipse.jface.notifications [0.2.100.v20201130-1828]
+[2021-02-08 13:43:12] Installing org.eclipse.jface.text [3.16.500.v20201112-1545]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.archive [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.feature.group [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.feature.jar [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.gpg.bc [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.gpg.bc.feature.group [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.gpg.bc.feature.jar [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.http.apache [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.http.apache.feature.group [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.http.apache.feature.jar [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.ssh.apache [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.ssh.apache.feature.group [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.ssh.apache.feature.jar [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.ssh.jsch [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.ssh.jsch.feature.group [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jgit.ssh.jsch.feature.jar [5.10.0.202012080955-r]
+[2021-02-08 13:43:12] Installing org.eclipse.jsch.core [1.3.900.v20200422-1935]
+[2021-02-08 13:43:12] Installing org.eclipse.jsch.ui [1.3.1100.v20200916-0731]
+[2021-02-08 13:43:12] Installing org.eclipse.justj.openjdk.hotspot.jre.full [15.0.2.v20210201-0955]
+[2021-02-08 13:43:12] Installing org.eclipse.justj.openjdk.hotspot.jre.full.feature.group [15.0.2.v20210201-0955]
+[2021-02-08 13:43:12] Installing org.eclipse.justj.openjdk.hotspot.jre.full.feature.jar [15.0.2.v20210201-0955]
+[2021-02-08 13:43:12] Installing org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64 [15.0.2.v20210201-0955]
+[2021-02-08 13:43:12] Installing org.eclipse.ltk.core.refactoring [3.11.200.v20201027-1753]
+[2021-02-08 13:43:12] Installing org.eclipse.ltk.ui.refactoring [3.11.200.v20201025-2022]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.archetype.common [1.16.0.20201125-2132]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.binaryproject [1.17.0.20200924-1339]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.binaryproject.ui [1.17.0.20200924-1339]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.core [1.17.1.20201207-1012]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.core.ui [1.17.1.20201207-1012]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.discovery [1.17.0.20201014-1513]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.editor [1.17.0.20201014-1513]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.editor.xml [1.17.0.20201021-0833]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.feature.feature.group [1.17.1.20201207-1112]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.feature.feature.jar [1.17.1.20201207-1112]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.importer [1.17.0.20200924-1339]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.jdt [1.17.0.20201014-1513]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.jdt.ui [1.17.0.20201014-1513]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.launching [1.17.0.20201014-1513]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.lifecyclemapping.defaults [1.17.0.20200924-1339]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.maven.indexer [1.17.1.20201207-1112]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.maven.runtime [1.16.0.20200610-1735]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.maven.runtime.slf4j.simple [1.16.0.20200610-1735]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.model.edit [1.16.0.20200514-1409]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.profiles.core [1.17.0.20201014-1513]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.profiles.ui [1.17.0.20200924-1339]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.refactoring [1.17.0.20200924-1339]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.scm [1.17.0.20200924-1339]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.sourcelookup [1.17.0.20200924-1339]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.sourcelookup.ui [1.17.0.20200924-1339]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.sse.ui.feature.feature.group [1.17.0.20201021-0833]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.sse.ui.feature.feature.jar [1.17.0.20201021-0833]
+[2021-02-08 13:43:12] Installing org.eclipse.m2e.workspace.cli [0.3.1]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.core [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.feature.group [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.feature.jar [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.identity.core [1.17.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.identity.feature.group [1.17.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.identity.feature.jar [1.17.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.net [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.notifications.core [1.17.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.notifications.feature.group [1.17.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.notifications.feature.jar [1.17.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.notifications.feed [1.17.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.notifications.ui [1.17.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.repositories.core [1.17.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.repositories.feature.group [1.17.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.repositories.feature.jar [1.17.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.repositories.ui [1.17.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.screenshots [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.ui [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.commons.workbench [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.context.core [3.25.2.v20200828-1617]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.context.ui [3.25.2.v20200828-1617]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.discovery.core [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.discovery.feature.group [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.discovery.feature.jar [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.discovery.ui [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.monitor.core [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.monitor.feature.group [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.monitor.feature.jar [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.monitor.ui [3.25.2.v20200813-0821]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.tasks.core [3.25.2.v20200814-0512]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.tasks.index.core [3.25.2.v20200814-0512]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.tasks.index.ui [3.25.2.v20200814-0512]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.tasks.search [3.25.2.v20200814-0512]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.tasks.ui [3.25.2.v20200814-0512]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext [3.0.38.20200817211131]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.ant [3.0.38.20200817211131]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.asciidoc [3.0.38.20200817211131]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.asciidoc.ui [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.confluence [3.0.38.20200817211131]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.confluence.ui [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.context.ui [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.editors_feature.feature.group [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.editors_feature.feature.jar [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.help.ui [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.html [3.0.38.20200817211131]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.markdown [3.0.38.20200817211131]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.markdown.ui [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.mediawiki [3.0.38.20200817211131]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.mediawiki.ui [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.osgi [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.tasks.ui [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.textile [3.0.38.20200817211131]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.textile.ui [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.tracwiki [3.0.38.20200817211131]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.tracwiki.ui [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.twiki [3.0.38.20200817211131]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.twiki.ui [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext.ui [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext_feature.feature.group [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn.wikitext_feature.feature.jar [3.0.38.202008172112]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn_feature.feature.group [3.25.2.v20200814-0512]
+[2021-02-08 13:43:12] Installing org.eclipse.mylyn_feature.feature.jar [3.25.2.v20200814-0512]
+[2021-02-08 13:43:12] Installing org.eclipse.nebula.widgets.tablecombo [1.2.0.202101180939]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.base [1.14.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.base.edit [1.13.0.v20200720-0841]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.extractor.lib [1.8.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.jreinfo [1.14.0.v20200901-1012]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.jreinfo.ui [1.12.0.v20200720-0749]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.p2 [1.14.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.p2.core [1.17.0.v20200820-0414]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.p2.doc [1.11.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.p2.edit [1.14.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.p2.feature.group [1.18.0.v20201231-0755]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.p2.feature.jar [1.18.0.v20201231-0755]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.p2.ui [1.15.0.v20201231-0755]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.predicates [1.12.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.predicates.edit [1.11.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.preferences [1.12.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.resources [1.15.0.v20210207-0627]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.resources.edit [1.11.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup [1.18.0.v20201230-0937]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.core [1.19.0.v20210111-1121]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.core.feature.group [1.19.0.v20210111-1121]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.core.feature.jar [1.19.0.v20210111-1121]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.doc [1.11.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.edit [1.15.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.editor [1.18.0.v20200805-0908]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.feature.group [1.20.0.v20210126-0525]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.feature.jar [1.20.0.v20210126-0525]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.git [1.18.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.git.edit [1.12.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.git.feature.group [1.18.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.git.feature.jar [1.18.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.p2 [1.16.0.v20200814-1205]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.p2.edit [1.13.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.projects [1.13.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.projects.edit [1.12.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.projects.feature.group [1.14.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.projects.feature.jar [1.14.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.sync [1.13.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.ui [1.20.0.v20210126-0525]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.setup.ui.questionnaire [1.12.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.ui [1.15.0.v20200820-0414]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.util [1.16.0.v20201230-0920]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.workingsets [1.11.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.workingsets.edit [1.11.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.oomph.workingsets.editor [1.12.0.v20200624-1156]
+[2021-02-08 13:43:12] Installing org.eclipse.osgi [3.16.100.v20201030-1916]
+[2021-02-08 13:43:12] Installing org.eclipse.osgi.compatibility.state [1.2.200.v20200915-2015]
+[2021-02-08 13:43:12] Installing org.eclipse.osgi.services [3.9.0.v20200511-1725]
+[2021-02-08 13:43:12] Installing org.eclipse.osgi.util [3.5.300.v20190708-1141]
+[2021-02-08 13:43:12] Installing org.eclipse.pde [3.13.1300.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.api.tools [1.2.100.v20201112-0408]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.api.tools.annotations [1.1.400.v20190929-1236]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.api.tools.ui [1.2.100.v20201112-0408]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.build [3.10.900.v20201111-1557]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.core [3.14.100.v20201116-1221]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.doc.user [3.14.1000.v20201202-1701]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.ds.annotations [1.2.0.v20200813-0526]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.ds.core [1.2.100.v20201105-2204]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.ds.lib [1.1.400.v20191119-0943]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.ds.ui [1.2.0.v20200813-0954]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.ds1_2.lib [1.0.400.v20191119-0943]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.feature.group [3.14.600.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.feature.jar [3.14.600.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.genericeditor.extension [1.1.0.v20200828-0858]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.junit.runtime [3.5.900.v20200810-0835]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.launching [3.9.100.v20201103-0836]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.runtime [3.7.0.v20201109-0850]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.ua.core [1.2.100.v20201105-1530]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.ua.ui [1.2.100.v20201105-1530]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.ui [3.12.100.v20201110-1552]
+[2021-02-08 13:43:12] Installing org.eclipse.pde.ui.templates [3.7.100.v20200926-1009]
+[2021-02-08 13:43:12] Installing org.eclipse.platform [4.18.0.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.platform.doc.user [4.18.0.v20201202-1459]
+[2021-02-08 13:43:12] Installing org.eclipse.platform.feature.group [4.18.0.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.platform.feature.jar [4.18.0.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.platform.ide [4.18.0.I20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.platform.ide.executable.cocoa.macosx.x86_64 [4.18.0.I20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.platform.ide.executable.cocoa.macosx.x86_64.eclipse [4.18.0.I20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.platform_root [4.18.0.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.rcp [4.18.0.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.rcp.feature.group [4.18.0.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.rcp.feature.jar [4.18.0.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.rcp_root [4.18.0.v20201202-1800]
+[2021-02-08 13:43:12] Installing org.eclipse.search [3.12.100.v20201116-1027]
+[2021-02-08 13:43:12] Installing org.eclipse.swt [3.115.100.v20201202-1103]
+[2021-02-08 13:43:12] Installing org.eclipse.swt.browser.chromium.cocoa.macosx.x86_64 [3.115.100.v20201202-1103]
+[2021-02-08 13:43:12] Installing org.eclipse.swt.cocoa.macosx.x86_64 [3.115.100.v20201202-1103]
+[2021-02-08 13:43:12] Installing org.eclipse.team.core [3.8.1100.v20200806-0621]
+[2021-02-08 13:43:12] Installing org.eclipse.team.genericeditor.diff.extension [1.0.600.v20200212-1524]
+[2021-02-08 13:43:12] Installing org.eclipse.team.ui [3.8.1100.v20200916-0836]
+[2021-02-08 13:43:12] Installing org.eclipse.text [3.10.400.v20200925-0557]
+[2021-02-08 13:43:12] Installing org.eclipse.text.quicksearch [1.0.400.v20201026-1722]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.connector.local [4.7.0.202008310315]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.connector.local.feature.feature.group [10.1.0.202010062020]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.connector.local.feature.feature.jar [10.1.0.202010062020]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.connector.process [4.7.0.202008310315]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.connector.ssh [4.7.0.202011161527]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.connector.ssh.feature.feature.group [10.1.0.202011161527]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.connector.ssh.feature.feature.jar [10.1.0.202011161527]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.connector.telnet [4.7.100.202010121414]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.connector.telnet.feature.feature.group [10.1.0.202010121414]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.connector.telnet.feature.feature.jar [10.1.0.202010121414]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.control [5.0.0.202009071350]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.control.feature.feature.group [10.1.0.202010062020]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.control.feature.feature.jar [10.1.0.202010062020]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.feature.feature.group [10.1.0.202010062020]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.feature.feature.jar [10.1.0.202010062020]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.view.core [4.7.0.202008310315]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.view.feature.feature.group [10.1.0.202011241127]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.view.feature.feature.jar [10.1.0.202011241127]
+[2021-02-08 13:43:12] Installing org.eclipse.tm.terminal.view.ui [4.7.100.202011241127]
+[2021-02-08 13:43:12] Installing org.eclipse.tools.layout.spy [1.0.600.v20200608-0818]
+[2021-02-08 13:43:12] Installing org.eclipse.ui [3.118.100.v20201123-0719]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.browser [3.6.1000.v20200910-0548]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.cheatsheets [3.7.100.v20200915-1059]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.cocoa [1.2.400.v20191217-1850]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.console [3.10.0.v20201021-1231]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.editors [3.13.400.v20200923-1238]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.externaltools [3.4.900.v20201105-0600]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.forms [3.11.0.v20201025-0656]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.genericeditor [1.1.900.v20200910-2030]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.ide [3.18.0.v20201119-1132]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.ide.application [1.3.900.v20201102-2031]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.intro [3.6.0.v20201120-1551]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.intro.quicklinks [1.1.0.v20200724-0708]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.intro.universal [3.4.0.v20200805-1259]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.monitoring [1.1.900.v20200907-0838]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.navigator [3.9.500.v20201021-1339]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.navigator.resources [3.7.500.v20201021-1339]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.net [1.3.800.v20200422-1935]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.themes [1.2.1200.v20201112-1139]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.trace [1.1.800.v20200106-1301]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.views [3.10.500.v20201021-1339]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.views.log [1.2.1300.v20200926-2205]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.views.properties.tabbed [3.9.0.v20201026-0739]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.workbench [3.122.0.v20201122-1345]
+[2021-02-08 13:43:12] Installing org.eclipse.ui.workbench.texteditor [3.15.100.v20201116-1727]
+[2021-02-08 13:43:12] Installing org.eclipse.update.configurator [3.4.700.v20200907-1237]
+[2021-02-08 13:43:12] Installing org.eclipse.urischeme [1.1.200.v20201104-0938]
+[2021-02-08 13:43:12] Installing org.eclipse.userstorage [1.2.0.v20190307-0457]
+[2021-02-08 13:43:12] Installing org.eclipse.userstorage.oauth [1.1.0.v20190307-0457]
+[2021-02-08 13:43:12] Installing org.eclipse.userstorage.ui [1.1.0.v20190307-0457]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common.core [1.4.0.v202007161535]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common.emf [1.2.700.v202007161535]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common.emfworkbench.integration [1.2.102.v202007161535]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common.environment [1.0.401.v202007142017]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common.frameworks [1.2.202.v202007142017]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common.frameworks.ui [1.2.401.v202007142017]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common.infopop [1.0.301.v202007142017]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common.modulecore [1.3.101.v202007161535]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common.modulecore.ui [1.0.302.v202007142017]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common.project.facet.core [1.4.401.v202007142017]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common.snippets [1.2.500.v201811170421]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common.ui [1.2.0.v202007161535]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common.uriresolver [1.3.0.v202007161535]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common_core.feature.feature.group [3.19.0.v202007161535]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common_core.feature.feature.jar [3.19.0.v202007161535]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common_ui.feature.feature.group [3.19.0.v202011161431]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.common_ui.feature.feature.jar [3.19.0.v202011161431]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.dtd.core [1.2.100.v202007120740]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.dtd.ui [1.1.300.v202008091424]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.dtd.ui.infopop [1.0.400.v201903222120]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.dtdeditor.doc.user [1.1.0.v201903222120]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.internet.cache [1.1.0.v202011161431]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.sse.core [1.2.500.v202008090735]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.sse.doc.user [1.2.0.v201903222120]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.sse.ui [1.7.100.v202008192217]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.sse.ui.infopop [1.0.300.v201903222120]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.standard.schemas [1.0.800.v201901071922]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.validation [1.2.801.v202007142017]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.validation.infopop [1.0.300.v202007131715]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.validation.ui [1.2.601.v202007142017]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.xml.core [1.2.300.v202007191910]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.xml.ui [1.2.500.v202008091424]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.xml.ui.infopop [1.0.400.v201903222120]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.xml_core.feature.feature.group [3.20.0.v202011230430]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.xml_core.feature.feature.jar [3.20.0.v202011230430]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.xml_ui.feature.feature.group [3.20.0.v202011230430]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.xml_ui.feature.feature.jar [3.20.0.v202011230430]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.xml_userdoc.feature.feature.group [3.18.0.v202004271556]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.xml_userdoc.feature.feature.jar [3.18.0.v202004271556]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.xmleditor.doc.user [1.1.0.v201903222120]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.xsd.core [1.2.100.v202008180353]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.xsd.ui [1.3.400.v202008091424]
+[2021-02-08 13:43:12] Installing org.eclipse.wst.xsdeditor.doc.user [1.0.800.v201903222120]
+[2021-02-08 13:43:12] Installing org.eclipse.xsd [2.18.0.v20200917-0747]
+[2021-02-08 13:43:12] Installing org.eclipse.xsd.edit [2.11.0.v20200723-0820]
+[2021-02-08 13:43:12] Installing org.eclipse.xtend.lib [2.24.0.v20201130-0911]
+[2021-02-08 13:43:12] Installing org.eclipse.xtend.lib.macro [2.24.0.v20201130-0911]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext [2.24.0.v20201130-0914]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext.builder [2.24.0.v20201130-0931]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext.common.types [2.24.0.v20201130-0919]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext.common.types.edit [2.24.0.v20201130-0931]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext.common.types.ui [2.24.0.v20201130-0931]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext.ide [2.24.0.v20201130-0914]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext.smap [2.24.0.v20201130-0919]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext.ui [2.24.0.v20201130-0931]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext.ui.codetemplates [2.24.0.v20201130-0931]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext.ui.codetemplates.ide [2.24.0.v20201130-0931]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext.ui.codetemplates.ui [2.24.0.v20201130-0931]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext.ui.shared [2.24.0.v20201130-0931]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext.util [2.24.0.v20201130-0914]
+[2021-02-08 13:43:12] Installing org.eclipse.xtext.xbase.lib [2.24.0.v20201130-0911]
+[2021-02-08 13:43:12] Installing org.hamcrest.core [1.3.0.v20180420-1519]
+[2021-02-08 13:43:12] Installing org.jsoup [1.8.3.v20181012-1713]
+[2021-02-08 13:43:12] Installing org.junit [4.13.0.v20200204-1500]
+[2021-02-08 13:43:12] Installing org.junit.jupiter.api [5.7.0.v20201026-1537]
+[2021-02-08 13:43:12] Installing org.junit.jupiter.engine [5.7.0.v20201026-1537]
+[2021-02-08 13:43:12] Installing org.junit.jupiter.migrationsupport [5.7.0.v20201026-1537]
+[2021-02-08 13:43:12] Installing org.junit.jupiter.params [5.7.0.v20201026-1537]
+[2021-02-08 13:43:12] Installing org.junit.platform.commons [1.7.0.v20201026-1537]
+[2021-02-08 13:43:12] Installing org.junit.platform.engine [1.7.0.v20201026-1537]
+[2021-02-08 13:43:12] Installing org.junit.platform.launcher [1.7.0.v20201026-1537]
+[2021-02-08 13:43:12] Installing org.junit.platform.runner [1.7.0.v20201026-1537]
+[2021-02-08 13:43:12] Installing org.junit.platform.suite.api [1.7.0.v20201026-1537]
+[2021-02-08 13:43:12] Installing org.junit.vintage.engine [5.7.0.v20201026-1537]
+[2021-02-08 13:43:12] Installing org.maven.ide.eclipse [1.17.1.20201207-1112]
+[2021-02-08 13:43:12] Installing org.objectweb.asm [9.0.0.v20201001-1419]
+[2021-02-08 13:43:12] Installing org.objectweb.asm.tree [9.0.0.v20201001-1419]
+[2021-02-08 13:43:12] Installing org.opentest4j [1.2.0.v20190826-0900]
+[2021-02-08 13:43:12] Installing org.sat4j.core [2.3.5.v201308161310]
+[2021-02-08 13:43:12] Installing org.sat4j.pb [2.3.5.v201404071733]
+[2021-02-08 13:43:12] Installing org.slf4j.api [1.7.30.v20200204-2150]
+[2021-02-08 13:43:12] Installing org.tukaani.xz [1.8.0.v20180207-1613]
+[2021-02-08 13:43:12] Installing org.w3c.css.sac [1.3.1.v200903091627]
+[2021-02-08 13:43:12] Installing org.w3c.dom.events [3.0.0.draft20060413_v201105210656]
+[2021-02-08 13:43:12] Installing org.w3c.dom.smil [1.0.1.v200903091627]
+[2021-02-08 13:43:12] Installing org.w3c.dom.svg [1.1.0.v201011041433]
+[2021-02-08 13:43:12] Installing tooling.org.eclipse.update.feature.default [1.0.0]
+[2021-02-08 13:43:12] Installing tooling.osgi.bundle.default [1.0.0]
+[2021-02-08 13:43:12] Installing tooling.source.default [1.0.0]
+[2021-02-08 13:43:12] Installing toolingcocoa.macosx.x86_64org.apache.felix.scr [4.18.0.I20201202-1800]
+[2021-02-08 13:43:12] Installing toolingcocoa.macosx.x86_64org.eclipse.core.runtime [4.18.0.I20201202-1800]
+[2021-02-08 13:43:12] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.common [4.18.0.I20201202-1800]
+[2021-02-08 13:43:12] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.event [4.18.0.I20201202-1800]
+[2021-02-08 13:43:12] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.p2.reconciler.dropins [4.18.0.I20201202-1800]
+[2021-02-08 13:43:12] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.simpleconfigurator [4.18.0.I20201202-1800]
+[2021-02-08 13:43:12] Installing toolingorg.eclipse.equinox.launcher [1.6.0.v20200915-1508]
+[2021-02-08 13:43:12] Installing toolingorg.eclipse.equinox.launcher.cocoa.macosx.x86_64 [1.2.0.v20200915-1442]
+[2021-02-08 13:43:12] Installing toolingorg.eclipse.platform.configuration.macosx [1.0.0]
+[2021-02-08 13:43:12] Installing toolingorg.eclipse.platform.ide.application [4.18.0.I20201202-1800]
+[2021-02-08 13:43:12] Installing toolingorg.eclipse.platform.ide.config.cocoa.macosx.x86_64 [4.18.0.I20201202-1800]
+[2021-02-08 13:43:12] Installing toolingorg.eclipse.platform.ide.configuration [4.18.0.I20201202-1800]
+[2021-02-08 13:43:12] Installing toolingorg.eclipse.platform.ide.executable.cocoa.macosx.x86_64 [4.18.0.I20201202-1800]
+[2021-02-08 13:43:12] Installing toolingorg.eclipse.platform.ide.ini.cocoa.macosx.x86_64 [4.18.0.I20201202-1800]
+[2021-02-08 13:43:13] Preparing to commit the provisioning operation.
+[2021-02-08 13:43:13] Committing the provisioning operation.
+[2021-02-08 13:43:14] Performing Eclipse Ini --launcher.appendVmargs
+[2021-02-08 13:43:14] Performing Eclipse Ini -Declipse.p2.max.threads=10
+[2021-02-08 13:43:14] Changing /Users/karansingh/IT/tdt4100v2020-master/Eclipse.app/Contents/Eclipse/eclipse.ini (-Declipse.p2.max.threads=10)
+[2021-02-08 13:43:14] Performing Eclipse Ini -Doomph.update.url=http://download.eclipse.org/oomph/updates/latest
+[2021-02-08 13:43:14] Changing /Users/karansingh/IT/tdt4100v2020-master/Eclipse.app/Contents/Eclipse/eclipse.ini (-Doomph.update.url=http://download.eclipse.org/oomph/updates/latest)
+[2021-02-08 13:43:14] Performing Eclipse Ini -Doomph.redirection.index.redirection=index:/->http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/
+[2021-02-08 13:43:14] Changing /Users/karansingh/IT/tdt4100v2020-master/Eclipse.app/Contents/Eclipse/eclipse.ini (-Doomph.redirection.index.redirection=index:/->http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/)
+[2021-02-08 13:43:14] Performing Resource Creation configuration:/.settings/org.eclipse.ui.ide.prefs
+[2021-02-08 13:43:14] Creating file:/Users/karansingh/IT/tdt4100v2020-master/Eclipse.app/Contents/Eclipse/configuration/.settings/org.eclipse.ui.ide.prefs
+[2021-02-08 13:43:14] Performing Text Modify configuration:/config.ini
+[2021-02-08 13:43:14] Modifying file:/Users/karansingh/IT/tdt4100v2020-master/Eclipse.app/Contents/Eclipse/configuration/config.ini
+[2021-02-08 13:43:14] Performing post bootstrap tasks
+[2021-02-08 13:43:14] Changing /Users/karansingh/IT/tdt4100v2020-master/Eclipse.app/Contents/Eclipse/configuration/config.ini (osgi.configuration.cascaded=false)
+[2021-02-08 13:43:14] 
+[2021-02-08 13:43:15] Launching the installed product...
+[2021-02-08 13:44:08] Executing startup tasks
+[2021-02-08 13:44:08] OpenJDK Runtime Environment 15.0.2+7-27
+[2021-02-08 13:44:08] Product user.products.tdt4100.2020-12
+[2021-02-08 13:44:08] Workspace /Users/karansingh/IT/tdt4100v2020-master/ws
+[2021-02-08 13:44:08] Project com.github.user.project.tdt4100-v2020.master
+[2021-02-08 13:44:08] Bundle org.eclipse.oomph.setup 1.18.0.v20201230-0937, build=4985, branch=6a3a5fc19e837c1408149bd66af770f2cb5a00c0
+[2021-02-08 13:44:08] Bundle org.eclipse.oomph.setup.core 1.19.0.v20210111-1121, build=4985, branch=6a3a5fc19e837c1408149bd66af770f2cb5a00c0
+[2021-02-08 13:44:08] Bundle org.eclipse.oomph.setup.git 1.18.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-08 13:44:08] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-08 13:44:08] Bundle org.eclipse.oomph.setup.projects 1.13.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-08 13:44:08] Performing Preference /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.codegen.targetPlatform = 15
+[2021-02-08 13:44:08] Performing Preference /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.compliance = 15
+[2021-02-08 13:44:08] Performing Preference /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures = enabled
+[2021-02-08 13:44:08] Performing Preference /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures = ignore
+[2021-02-08 13:44:08] Performing Preference /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.source = 15
+[2021-02-08 13:44:08] Performing Preference /instance/org.eclipse.e4.ui.css.swt.theme/themeid = org.eclipse.e4.ui.css.theme.e4_dark
+[2021-02-08 13:44:08] Performing Preference /instance/org.eclipse.e4.ui.workbench.renderers.swt/enableMRU = true
+[2021-02-08 13:44:08] Performing Preference /instance/org.eclipse.e4.ui.workbench.renderers.swt/themeEnabled = true
+[2021-02-08 13:44:08] Performing Preference /instance/org.eclipse.e4.ui.workbench.renderers.swt/USE_ROUND_TABS = false
+[2021-02-08 13:44:08] Performing Preference /instance/org.eclipse.fx.ide.ui/scenebuilder.exe = /Applications/SceneBuilder.app
+[2021-02-08 13:44:08] Performing Preference /instance/org.eclipse.jdt.ui/editor_save_participant_org.eclipse.jdt.ui.postsavelistener.cleanup = true
+[2021-02-08 13:44:08] Performing Preference /instance/org.eclipse.jdt.ui/hoverModifierMasks = org.eclipse.jdt.ui.BestMatchHover;0;org.eclipse.jdt.internal.debug.ui.JavaDebugHover;0;org.eclipse.jdt.ui.ProblemHover;0;org.eclipse.jdt.ui.NLSStringHover;4259840;org.eclipse.jdt.ui.JavadocHover;4325376;org.eclipse.jdt.ui.AnnotationHover;0;org.eclipse.jdt.ui.JavaSourceHover;131072;
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/hoverModifiers = org.eclipse.jdt.ui.BestMatchHover;0;org.eclipse.jdt.internal.debug.ui.JavaDebugHover;!0;org.eclipse.jdt.ui.ProblemHover;!0;org.eclipse.jdt.ui.NLSStringHover;Command+Alt;org.eclipse.jdt.ui.JavadocHover;Command+Shift;org.eclipse.jdt.ui.AnnotationHover;!0;org.eclipse.jdt.ui.JavaSourceHover;Shift;
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.experimental.methodParameter.filters.disabled = 
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.experimental.methodParameter.filters.enabled = (begin*, end*);(first*, last*);(first*, second*);(format, arg*);(from*, to*);(key, value);(message, error);(message);(min*, max*);(start*, end*);*.add(*);*.append(*);*.Arrays.asList;*.charAt(*);*.compare(*,*);*.compareTo(*);*.contains(*);*.create(*);*.endsWith(*);*.equal(*);*.equals(*);*.get(*);*.getProperty(*);*.ImmutableList.of;*.ImmutableMultiset.of;*.ImmutableSortedMultiset.of;*.ImmutableSortedSet.of;*.indexOf(*);*.print(*);*.println(*);*.Set.of;*.set(*,*);*.set*(*);*.setProperty(*,*);*.singleton(*);*.singletonList(*);*.startsWith(*);*Exception;java.lang.Math.*;org.slf4j.Logger.*;
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.experimental.methodParameter.names = false
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.experimental.methodParameter.onlyForLiteral = false
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.experimental.methodParameter.types = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.experimental.references = false
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.experimental.references.method = false
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.implementations = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.parameterNames = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.references = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.references.onFields = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.references.onMethods = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.references.onTypes = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.text.custom_templates = <?xml version="1.0" encoding="UTF-8" standalone="no"?><templates/>
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/overriddenByCSS = ,content_assist_completion_replacement_background,content_assist_completion_replacement_foreground,content_assist_parameters_background,content_assist_parameters_foreground,content_assist_proposals_background,content_assist_proposals_foreground,java_bracket,java_comment_task_tag,java_default,java_doc_default,java_doc_keyword,java_doc_link,java_doc_tag,java_keyword,java_keyword_bold,java_keyword_return,java_keyword_return_bold,java_multi_line_comment,java_operator,java_single_line_comment,java_string,matchingBracketsColor,pf_coloring_argument,pf_coloring_assignment,pf_coloring_comment,pf_coloring_key,pf_coloring_value,semanticHighlighting.abstractClass.color,semanticHighlighting.abstractClass.enabled,semanticHighlighting.abstractMethodInvocation.color,semanticHighlighting.abstractMethodInvocation.enabled,semanticHighlighting.annotation.color,semanticHighlighting.annotation.enabled,semanticHighlighting.annotation.italic,semanticHighlighting.annotationElementReference.color,semanticHighlighting.annotationElementReference.enabled,semanticHighlighting.class.color,semanticHighlighting.class.enabled,semanticHighlighting.deprecatedMember.color,semanticHighlighting.deprecatedMember.enabled,semanticHighlighting.deprecatedMember.underline,semanticHighlighting.deprecatedMember.strikethrough,semanticHighlighting.enum.color,semanticHighlighting.enum.enabled,semanticHighlighting.enum.italic,semanticHighlighting.field.color,semanticHighlighting.field.enabled,semanticHighlighting.inheritedField.color,semanticHighlighting.inheritedMethodInvocation.color,semanticHighlighting.inheritedMethodInvocation.enabled,semanticHighlighting.interface.color,semanticHighlighting.interface.enabled,semanticHighlighting.localVariable.color,semanticHighlighting.localVariable.enabled,semanticHighlighting.localVariableDeclaration.color,semanticHighlighting.localVariableDeclaration.enabled,semanticHighlighting.localVariableDeclaration.bold,semanticHighlighting.method.color,semanticHighlighting.method.enabled,semanticHighlighting.methodDeclarationName.color,semanticHighlighting.methodDeclarationName.enabled,semanticHighlighting.methodDeclarationName.bold,semanticHighlighting.number.color,semanticHighlighting.number.enabled,semanticHighlighting.parameterVariable.color,semanticHighlighting.parameterVariable.enabled,semanticHighlighting.staticField.color,semanticHighlighting.staticField.enabled,semanticHighlighting.staticFinalField.color,semanticHighlighting.staticFinalField.enabled,semanticHighlighting.staticMethodInvocation.color,semanticHighlighting.staticMethodInvocation.enabled,semanticHighlighting.typeArgument.color,semanticHighlighting.typeArgument.enabled,semanticHighlighting.typeParameter.color,semanticHighlighting.typeParameter.enabled,semanticHighlighting.typeParameter.bold,semanticHighlighting.restrictedKeywords.color,semanticHighlighting.restrictedKeywords.bold,
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/smart_semicolon = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sourceHoverBackgroundColor = 47,47,47
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_all = false
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_default_serial_version_id = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_generated_serial_version_id = false
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_missing_annotations = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_missing_deprecated_annotations = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_missing_methods = false
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_missing_nls_tags = false
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_missing_override_annotations = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_missing_override_annotations_interface_methods = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_serial_version_id = false
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.always_use_blocks = true
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.always_use_parentheses_in_expressions = false
+[2021-02-08 13:44:09] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.always_use_this_for_non_static_field_access = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.always_use_this_for_non_static_method_access = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.arrays_fill = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.bitwise_conditional_expression = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.boolean_literal = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.break_loop = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.collection_cloning = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.comparison_statement = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.convert_functional_interfaces = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.convert_to_enhanced_for_loop = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.convert_to_enhanced_for_loop_if_loop_var_used = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.convert_to_switch_expressions = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.correct_indentation = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.double_negation = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.else_if = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.embedded_if = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.evaluate_nullable = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.format_source_code = true
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.format_source_code_changes_only = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.hash = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.if_condition = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.insert_inferred_type_arguments = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.instanceof = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.join = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.lazy_logical_operator = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.make_local_variable_final = true
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.make_parameters_final = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.make_private_fields_final = true
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.make_type_abstract_if_missing_method = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.make_variable_declarations_final = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.map_cloning = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.merge_conditional_blocks = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.never_use_blocks = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.never_use_parentheses_in_expressions = true
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.no_string_creation = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.no_super = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.number_suffix = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.objects_equals = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.on_save_use_additional_actions = true
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.organize_imports = true
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.overridden_assignment = false
+[2021-02-08 13:44:10] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.precompile_regex = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.primitive_serialization = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.pull_up_assignment = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.push_down_negation = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.qualify_static_field_accesses_with_declaring_class = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.qualify_static_member_accesses_through_instances_with_declaring_class = true
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.qualify_static_member_accesses_through_subtypes_with_declaring_class = true
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.qualify_static_member_accesses_with_declaring_class = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.qualify_static_method_accesses_with_declaring_class = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.redundant_falling_through_block_end = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_private_constructors = true
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_redundant_modifiers = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_redundant_semicolons = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_redundant_type_arguments = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_trailing_whitespaces = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_trailing_whitespaces_all = true
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_trailing_whitespaces_ignore_empty = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unnecessary_array_creation = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unnecessary_casts = true
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unnecessary_nls_tags = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_imports = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_local_variables = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_private_fields = true
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_private_members = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_private_methods = true
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_private_types = true
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.simplify_lambda_expression_and_method_ref = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.sort_members = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.sort_members_all = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.strictly_equal_or_different = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.stringbuilder = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.switch = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.ternary_operator = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.try_with_resource = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_anonymous_class_creation = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_autoboxing = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_blocks = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_blocks_only_for_return_and_throw = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_directly_map_method = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_lambda = true
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_parentheses_in_expressions = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_field_access = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_field_access_only_if_necessary = true
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_method_access = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_method_access_only_if_necessary = true
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_unboxing = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_var = false
+[2021-02-08 13:44:11] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.useless_continue = false
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.useless_return = false
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.commands = <?xml version="1.0" encoding="UTF-8"?>...
+[2021-02-08 13:44:12] <?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.ui.commands>
+<keyBinding contextId="org.eclipse.ui.textEditorScope" keyConfigurationId="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence="ALT+COMMAND+ARROW_DOWN"/>
+<keyBinding commandId="org.eclipse.ui.edit.text.copyLineDown" contextId="org.eclipse.ui.textEditorScope" keyConfigurationId="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence="COMMAND+SHIFT+D"/>
+<keyBinding commandId="org.eclipse.jdt.ui.edit.text.java.add.block.comment" contextId="org.eclipse.jdt.ui.javaEditorScope" keyConfigurationId="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence="COMMAND+SHIFT+W"/>
+<keyBinding contextId="org.eclipse.jdt.ui.javaEditorScope" keyConfigurationId="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence="COMMAND+CTRL+/"/>
+<keyBinding commandId="org.eclipse.ui.window.preferences" contextId="org.eclipse.ui.contexts.window" keyConfigurationId="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence="COMMAND+D">
+<parameter id="preferencePageId" value="org.eclipse.debug.ui.ConsolePreferencePage"/>
+</keyBinding>
+</org.eclipse.ui.commands>
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.CONFLICTING_COLOR = 240,15,66
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.CONTENT_ASSIST_BACKGROUND_COLOR = 52,57,61
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.CONTENT_ASSIST_FOREGROUND_COLOR = 238,238,238
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.INCOMING_COLOR = 31,179,235
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.egit.ui.DiffAddBackgroundColor = 11,121,90
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.egit.ui.DiffAddForegroundColor = 216,254,245
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.egit.ui.DiffHeadlineBackgroundColor = 71,71,71
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.egit.ui.DiffHeadlineForegroundColor = 242,242,242
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.egit.ui.DiffHunkBackgroundColor = 53,97,113
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.egit.ui.DiffHunkForegroundColor = 233,242,254
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.egit.ui.DiffRemoveBackgroundColor = 117,2,36
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.egit.ui.DiffRemoveForegroundColor = 255,232,237
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.egit.ui.IgnoredResourceBackgroundColor = 47,47,47
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.egit.ui.IgnoredResourceForegroundColor = 120,120,120
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.egit.ui.UncommittedChangeBackgroundColor = 47,47,47
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.egit.ui.UncommittedChangeForegroundColor = 114,157,186
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.jdt.ui.ColoredLabels.inherited = 143,143,191
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.jdt.ui.ColoredLabels.match_highlight = 206,92,0
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.jdt.ui.ColoredLabels.writeaccess_highlight = 255,128,128
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.jdt.ui.Javadoc.backgroundColor = 52,57,61
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.jdt.ui.Javadoc.foregroundColor = 238,238,238
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.jface.REVISION_NEWEST_COLOR = 75,44,3
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.jface.REVISION_OLDEST_COLOR = 154,113,61
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.mylyn.tasks.ui.colors.category.gradient.end = 136,137,133
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.mylyn.tasks.ui.colors.category.gradient.start = 85,87,83
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.mylyn.tasks.ui.colors.foreground.past.scheduled = 52,101,164
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.mylyn.tasks.ui.colors.foreground.task.active = 117,80,123
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.mylyn.tasks.ui.colors.foreground.thisweek.scheduled = 85,87,83
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.mylyn.tasks.ui.colors.foreground.today.scheduled = 52,101,164
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.pde.genericeditor.extension.editor.color.attribute = 196,138,114
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.pde.genericeditor.extension.editor.color.comment = 96,139,78
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.pde.genericeditor.extension.editor.color.header = 128,128,128
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.pde.genericeditor.extension.editor.color.quote = 118,200,244
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.pde.genericeditor.extension.editor.color.tag = 86,156,214
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.pde.genericeditor.extension.editor.color.text = 212,212,212
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.search.ui.match.highlight = 206,92,0
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.editors.rangeIndicatorColor = 27,118,153
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_SELECTED_TEXT_COLOR = 204,204,204
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_TAB_INNER_KEYLINE_COLOR = 75,76,79
+[2021-02-08 13:44:12] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_TAB_OUTER_KEYLINE_COLOR = 75,76,79
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_TAB_OUTLINE_COLOR = 75,76,79
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_TAB_SELECTED_TEXT_COLOR = 247,248,248
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_TAB_UNSELECTED_TEXT_COLOR = 221,221,221
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_END = 64,64,67
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_START = 73,74,77
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.DARK_BACKGROUND = 81,86,88
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.DARK_FOREGROUND = 238,238,238
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.HOVER_BACKGROUND = 52,57,61
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.HOVER_FOREGROUND = 238,238,238
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_TAB_INNER_KEYLINE_COLOR = 81,86,88
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_TAB_OUTER_KEYLINE_COLOR = 81,86,88
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_TAB_OUTLINE_COLOR = 59,64,66
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_TAB_SELECTED_TEXT_COLOR = 255,255,255
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_TAB_UNSELECTED_TEXT_COLOR = 187,187,187
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_END = 70,70,73
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_START = 81,86,88
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INFORMATION_BACKGROUND = 81,86,88
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INFORMATION_FOREGROUND = 238,238,238
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.LINK_COLOR = 111,197,238
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.OUTGOING_COLOR = 238,238,238
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.ide.systemDefault.RESOLVED_COLOR = 108,210,17
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.ACTIVE_HYPERLINK_COLOR = 138,201,242
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.CONFLICTING_COLOR = 240,15,66
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.CONTENT_ASSIST_BACKGROUND_COLOR = 52,57,61
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.CONTENT_ASSIST_FOREGROUND_COLOR = 238,238,238
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.ERROR_COLOR = 247,68,117
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.HYPERLINK_COLOR = 111,197,238
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.INCOMING_COLOR = 31,179,235
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.egit.ui.DiffAddBackgroundColor = 11,121,90
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.egit.ui.DiffAddForegroundColor = 216,254,245
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.egit.ui.DiffHeadlineBackgroundColor = 71,71,71
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.egit.ui.DiffHeadlineForegroundColor = 242,242,242
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.egit.ui.DiffHunkBackgroundColor = 53,97,113
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.egit.ui.DiffHunkForegroundColor = 233,242,254
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.egit.ui.DiffRemoveBackgroundColor = 117,2,36
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.egit.ui.DiffRemoveForegroundColor = 255,232,237
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.egit.ui.IgnoredResourceBackgroundColor = 47,47,47
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.egit.ui.IgnoredResourceForegroundColor = 120,120,120
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.egit.ui.UncommittedChangeBackgroundColor = 47,47,47
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.egit.ui.UncommittedChangeForegroundColor = 114,157,186
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.jdt.ui.ColoredLabels.inherited = 143,143,191
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.jdt.ui.ColoredLabels.match_highlight = 206,92,0
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.jdt.ui.ColoredLabels.writeaccess_highlight = 255,128,128
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.jdt.ui.Javadoc.backgroundColor = 52,57,61
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.jdt.ui.Javadoc.foregroundColor = 238,238,238
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.jface.REVISION_NEWEST_COLOR = 75,44,3
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.jface.REVISION_OLDEST_COLOR = 154,113,61
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.mylyn.tasks.ui.colors.category.gradient.end = 136,137,133
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.mylyn.tasks.ui.colors.category.gradient.start = 85,87,83
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.mylyn.tasks.ui.colors.foreground.past.scheduled = 52,101,164
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.mylyn.tasks.ui.colors.foreground.task.active = 117,80,123
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.mylyn.tasks.ui.colors.foreground.thisweek.scheduled = 85,87,83
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.mylyn.tasks.ui.colors.foreground.today.scheduled = 52,101,164
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.pde.genericeditor.extension.editor.color.attribute = 196,138,114
+[2021-02-08 13:44:13] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.pde.genericeditor.extension.editor.color.comment = 96,139,78
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.pde.genericeditor.extension.editor.color.header = 128,128,128
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.pde.genericeditor.extension.editor.color.quote = 118,200,244
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.pde.genericeditor.extension.editor.color.tag = 86,156,214
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.pde.genericeditor.extension.editor.color.text = 212,212,212
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.search.ui.match.highlight = 206,92,0
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.editors.rangeIndicatorColor = 27,118,153
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_SELECTED_TEXT_COLOR = 204,204,204
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.ACTIVE_TAB_INNER_KEYLINE_COLOR = 75,76,79
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.ACTIVE_TAB_OUTER_KEYLINE_COLOR = 75,76,79
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.ACTIVE_TAB_OUTLINE_COLOR = 75,76,79
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.ACTIVE_TAB_SELECTED_TEXT_COLOR = 247,248,248
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.ACTIVE_TAB_UNSELECTED_TEXT_COLOR = 221,221,221
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_END = 64,64,67
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_START = 73,74,77
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.DARK_BACKGROUND = 81,86,88
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.DARK_FOREGROUND = 238,238,238
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.HOVER_BACKGROUND = 52,57,61
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.HOVER_FOREGROUND = 238,238,238
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.INACTIVE_TAB_INNER_KEYLINE_COLOR = 81,86,88
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.INACTIVE_TAB_OUTER_KEYLINE_COLOR = 81,86,88
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.INACTIVE_TAB_OUTLINE_COLOR = 59,64,66
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.INACTIVE_TAB_SELECTED_TEXT_COLOR = 255,255,255
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.INACTIVE_TAB_UNSELECTED_TEXT_COLOR = 187,187,187
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_END = 70,70,73
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_START = 81,86,88
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.INFORMATION_BACKGROUND = 81,86,88
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.INFORMATION_FOREGROUND = 238,238,238
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.LINK_COLOR = 111,197,238
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.OUTGOING_COLOR = 238,238,238
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.RESOLVED_COLOR = 108,210,17
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.ACTIVE_TAB_INNER_KEYLINE_COLOR = 75,76,79
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.ACTIVE_TAB_OUTER_KEYLINE_COLOR = 75,76,79
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.ACTIVE_TAB_OUTLINE_COLOR = 75,76,79
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_END = 64,64,67
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_START = 73,74,77
+[2021-02-08 13:44:14] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.INACTIVE_TAB_INNER_KEYLINE_COLOR = 81,86,88
+[2021-02-08 13:44:15] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.INACTIVE_TAB_OUTER_KEYLINE_COLOR = 81,86,88
+[2021-02-08 13:44:15] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.INACTIVE_TAB_OUTLINE_COLOR = 59,64,66
+[2021-02-08 13:44:15] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_END = 70,70,73
+[2021-02-08 13:44:15] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_START = 81,86,88
+[2021-02-08 13:44:15] Performing Git Clone https://gitlab.stud.idi.ntnu.no/tdt4100/v2021/students.git  (master)
+[2021-02-08 13:44:15] Cloning Git repo https://gitlab.stud.idi.ntnu.no/tdt4100/v2021/students.git to /Users/karansingh/tdt4100/git/v2021
+[2021-02-08 13:44:21] Receiving objects
+[2021-02-08 13:44:21] Receiving objects:         0% (  1/761)
+[2021-02-08 13:44:21] Receiving objects:         1% (  8/761)
+[2021-02-08 13:44:21] Receiving objects:         2% ( 16/761)
+[2021-02-08 13:44:21] Receiving objects:         3% ( 23/761)
+[2021-02-08 13:44:21] Receiving objects:         4% ( 31/761)
+[2021-02-08 13:44:21] Receiving objects:         5% ( 39/761)
+[2021-02-08 13:44:21] Receiving objects:         6% ( 46/761)
+[2021-02-08 13:44:21] Receiving objects:         7% ( 54/761)
+[2021-02-08 13:44:21] Receiving objects:         8% ( 61/761)
+[2021-02-08 13:44:21] Receiving objects:         9% ( 69/761)
+[2021-02-08 13:44:21] Receiving objects:        10% ( 77/761)
+[2021-02-08 13:44:21] Receiving objects:        11% ( 84/761)
+[2021-02-08 13:44:21] Receiving objects:        12% ( 92/761)
+[2021-02-08 13:44:21] Receiving objects:        13% ( 99/761)
+[2021-02-08 13:44:21] Receiving objects:        14% (107/761)
+[2021-02-08 13:44:21] Receiving objects:        15% (115/761)
+[2021-02-08 13:44:21] Receiving objects:        16% (122/761)
+[2021-02-08 13:44:21] Receiving objects:        17% (130/761)
+[2021-02-08 13:44:21] Receiving objects:        18% (137/761)
+[2021-02-08 13:44:21] Receiving objects:        19% (145/761)
+[2021-02-08 13:44:21] Receiving objects:        20% (153/761)
+[2021-02-08 13:44:21] Receiving objects:        21% (160/761)
+[2021-02-08 13:44:21] Receiving objects:        22% (168/761)
+[2021-02-08 13:44:21] Receiving objects:        23% (176/761)
+[2021-02-08 13:44:21] Receiving objects:        24% (183/761)
+[2021-02-08 13:44:21] Receiving objects:        25% (191/761)
+[2021-02-08 13:44:21] Receiving objects:        26% (198/761)
+[2021-02-08 13:44:21] Receiving objects:        27% (206/761)
+[2021-02-08 13:44:21] Receiving objects:        28% (214/761)
+[2021-02-08 13:44:21] Receiving objects:        29% (221/761)
+[2021-02-08 13:44:21] Receiving objects:        30% (229/761)
+[2021-02-08 13:44:21] Receiving objects:        31% (236/761)
+[2021-02-08 13:44:21] Receiving objects:        32% (244/761)
+[2021-02-08 13:44:21] Receiving objects:        33% (252/761)
+[2021-02-08 13:44:21] Receiving objects:        34% (259/761)
+[2021-02-08 13:44:21] Receiving objects:        35% (267/761)
+[2021-02-08 13:44:22] Receiving objects:        36% (274/761)
+[2021-02-08 13:44:22] Receiving objects:        37% (282/761)
+[2021-02-08 13:44:22] Receiving objects:        38% (290/761)
+[2021-02-08 13:44:22] Receiving objects:        39% (297/761)
+[2021-02-08 13:44:22] Receiving objects:        40% (305/761)
+[2021-02-08 13:44:22] Receiving objects:        41% (313/761)
+[2021-02-08 13:44:22] Receiving objects:        42% (320/761)
+[2021-02-08 13:44:22] Receiving objects:        43% (328/761)
+[2021-02-08 13:44:22] Receiving objects:        44% (335/761)
+[2021-02-08 13:44:22] Receiving objects:        45% (343/761)
+[2021-02-08 13:44:22] Receiving objects:        46% (351/761)
+[2021-02-08 13:44:22] Receiving objects:        47% (358/761)
+[2021-02-08 13:44:22] Receiving objects:        48% (366/761)
+[2021-02-08 13:44:22] Receiving objects:        49% (373/761)
+[2021-02-08 13:44:22] Receiving objects:        50% (381/761)
+[2021-02-08 13:44:22] Receiving objects:        51% (389/761)
+[2021-02-08 13:44:22] Receiving objects:        52% (396/761)
+[2021-02-08 13:44:22] Receiving objects:        53% (404/761)
+[2021-02-08 13:44:22] Receiving objects:        54% (411/761)
+[2021-02-08 13:44:22] Receiving objects:        55% (419/761)
+[2021-02-08 13:44:22] Receiving objects:        56% (427/761)
+[2021-02-08 13:44:22] Receiving objects:        57% (434/761)
+[2021-02-08 13:44:22] Receiving objects:        58% (442/761)
+[2021-02-08 13:44:22] Receiving objects:        59% (449/761)
+[2021-02-08 13:44:22] Receiving objects:        60% (457/761)
+[2021-02-08 13:44:22] Receiving objects:        61% (465/761)
+[2021-02-08 13:44:22] Receiving objects:        62% (472/761)
+[2021-02-08 13:44:22] Receiving objects:        63% (480/761)
+[2021-02-08 13:44:22] Receiving objects:        64% (488/761)
+[2021-02-08 13:44:22] Receiving objects:        65% (495/761)
+[2021-02-08 13:44:22] Receiving objects:        66% (503/761)
+[2021-02-08 13:44:22] Receiving objects:        67% (510/761)
+[2021-02-08 13:44:22] Receiving objects:        68% (518/761)
+[2021-02-08 13:44:22] Receiving objects:        69% (526/761)
+[2021-02-08 13:44:22] Receiving objects:        70% (533/761)
+[2021-02-08 13:44:22] Receiving objects:        71% (541/761)
+[2021-02-08 13:44:22] Receiving objects:        72% (548/761)
+[2021-02-08 13:44:22] Receiving objects:        73% (556/761)
+[2021-02-08 13:44:22] Receiving objects:        74% (564/761)
+[2021-02-08 13:44:22] Receiving objects:        75% (571/761)
+[2021-02-08 13:44:22] Receiving objects:        76% (579/761)
+[2021-02-08 13:44:22] Receiving objects:        77% (586/761)
+[2021-02-08 13:44:22] Receiving objects:        78% (594/761)
+[2021-02-08 13:44:22] Receiving objects:        79% (602/761)
+[2021-02-08 13:44:22] Receiving objects:        80% (609/761)
+[2021-02-08 13:44:22] Receiving objects:        81% (617/761)
+[2021-02-08 13:44:22] Receiving objects:        82% (625/761)
+[2021-02-08 13:44:22] Receiving objects:        83% (632/761)
+[2021-02-08 13:44:22] Receiving objects:        84% (640/761)
+[2021-02-08 13:44:22] Receiving objects:        85% (647/761)
+[2021-02-08 13:44:22] Receiving objects:        86% (655/761)
+[2021-02-08 13:44:22] Receiving objects:        87% (663/761)
+[2021-02-08 13:44:22] Receiving objects:        88% (670/761)
+[2021-02-08 13:44:22] Receiving objects:        89% (678/761)
+[2021-02-08 13:44:22] Receiving objects:        90% (685/761)
+[2021-02-08 13:44:22] Receiving objects:        91% (693/761)
+[2021-02-08 13:44:22] Receiving objects:        92% (701/761)
+[2021-02-08 13:44:22] Receiving objects:        93% (708/761)
+[2021-02-08 13:44:22] Receiving objects:        94% (716/761)
+[2021-02-08 13:44:22] Receiving objects:        95% (723/761)
+[2021-02-08 13:44:22] Receiving objects:        96% (731/761)
+[2021-02-08 13:44:22] Receiving objects:        97% (739/761)
+[2021-02-08 13:44:22] Receiving objects:        98% (746/761)
+[2021-02-08 13:44:22] Receiving objects:        99% (754/761)
+[2021-02-08 13:44:22] Receiving objects:       100% (761/761)
+[2021-02-08 13:44:22] Resolving deltas
+[2021-02-08 13:44:22] Resolving deltas:          0% (  1/297)
+[2021-02-08 13:44:22] Resolving deltas:          1% (  3/297)
+[2021-02-08 13:44:22] Resolving deltas:          2% (  6/297)
+[2021-02-08 13:44:22] Resolving deltas:          3% (  9/297)
+[2021-02-08 13:44:22] Resolving deltas:          4% ( 12/297)
+[2021-02-08 13:44:22] Resolving deltas:          5% ( 15/297)
+[2021-02-08 13:44:22] Resolving deltas:          6% ( 18/297)
+[2021-02-08 13:44:22] Resolving deltas:          7% ( 21/297)
+[2021-02-08 13:44:22] Resolving deltas:          8% ( 24/297)
+[2021-02-08 13:44:22] Resolving deltas:          9% ( 27/297)
+[2021-02-08 13:44:22] Resolving deltas:         10% ( 30/297)
+[2021-02-08 13:44:22] Resolving deltas:         11% ( 33/297)
+[2021-02-08 13:44:22] Resolving deltas:         12% ( 36/297)
+[2021-02-08 13:44:22] Resolving deltas:         13% ( 39/297)
+[2021-02-08 13:44:22] Resolving deltas:         14% ( 42/297)
+[2021-02-08 13:44:22] Resolving deltas:         15% ( 45/297)
+[2021-02-08 13:44:22] Resolving deltas:         16% ( 48/297)
+[2021-02-08 13:44:22] Resolving deltas:         17% ( 51/297)
+[2021-02-08 13:44:22] Resolving deltas:         18% ( 54/297)
+[2021-02-08 13:44:22] Resolving deltas:         19% ( 57/297)
+[2021-02-08 13:44:22] Resolving deltas:         20% ( 60/297)
+[2021-02-08 13:44:22] Resolving deltas:         21% ( 63/297)
+[2021-02-08 13:44:22] Resolving deltas:         22% ( 66/297)
+[2021-02-08 13:44:22] Resolving deltas:         23% ( 69/297)
+[2021-02-08 13:44:22] Resolving deltas:         24% ( 72/297)
+[2021-02-08 13:44:22] Resolving deltas:         25% ( 75/297)
+[2021-02-08 13:44:22] Resolving deltas:         26% ( 78/297)
+[2021-02-08 13:44:22] Resolving deltas:         27% ( 81/297)
+[2021-02-08 13:44:22] Resolving deltas:         28% ( 84/297)
+[2021-02-08 13:44:22] Resolving deltas:         29% ( 87/297)
+[2021-02-08 13:44:22] Resolving deltas:         30% ( 90/297)
+[2021-02-08 13:44:22] Resolving deltas:         31% ( 93/297)
+[2021-02-08 13:44:22] Resolving deltas:         32% ( 96/297)
+[2021-02-08 13:44:22] Resolving deltas:         33% ( 99/297)
+[2021-02-08 13:44:22] Resolving deltas:         34% (101/297)
+[2021-02-08 13:44:22] Resolving deltas:         35% (104/297)
+[2021-02-08 13:44:22] Resolving deltas:         36% (107/297)
+[2021-02-08 13:44:22] Resolving deltas:         37% (110/297)
+[2021-02-08 13:44:22] Resolving deltas:         38% (113/297)
+[2021-02-08 13:44:22] Resolving deltas:         39% (116/297)
+[2021-02-08 13:44:22] Resolving deltas:         40% (119/297)
+[2021-02-08 13:44:22] Resolving deltas:         41% (122/297)
+[2021-02-08 13:44:22] Resolving deltas:         42% (125/297)
+[2021-02-08 13:44:22] Resolving deltas:         43% (128/297)
+[2021-02-08 13:44:22] Resolving deltas:         44% (131/297)
+[2021-02-08 13:44:22] Resolving deltas:         45% (134/297)
+[2021-02-08 13:44:22] Resolving deltas:         46% (137/297)
+[2021-02-08 13:44:22] Resolving deltas:         47% (140/297)
+[2021-02-08 13:44:22] Resolving deltas:         48% (143/297)
+[2021-02-08 13:44:22] Resolving deltas:         49% (146/297)
+[2021-02-08 13:44:22] Resolving deltas:         50% (149/297)
+[2021-02-08 13:44:22] Resolving deltas:         51% (152/297)
+[2021-02-08 13:44:22] Resolving deltas:         52% (155/297)
+[2021-02-08 13:44:22] Resolving deltas:         53% (158/297)
+[2021-02-08 13:44:22] Resolving deltas:         54% (161/297)
+[2021-02-08 13:44:22] Resolving deltas:         55% (164/297)
+[2021-02-08 13:44:22] Resolving deltas:         56% (167/297)
+[2021-02-08 13:44:22] Resolving deltas:         57% (170/297)
+[2021-02-08 13:44:22] Resolving deltas:         58% (173/297)
+[2021-02-08 13:44:22] Resolving deltas:         59% (176/297)
+[2021-02-08 13:44:22] Resolving deltas:         60% (179/297)
+[2021-02-08 13:44:22] Resolving deltas:         61% (182/297)
+[2021-02-08 13:44:22] Resolving deltas:         62% (185/297)
+[2021-02-08 13:44:22] Resolving deltas:         63% (188/297)
+[2021-02-08 13:44:22] Resolving deltas:         64% (191/297)
+[2021-02-08 13:44:22] Resolving deltas:         65% (194/297)
+[2021-02-08 13:44:22] Resolving deltas:         66% (197/297)
+[2021-02-08 13:44:22] Resolving deltas:         67% (199/297)
+[2021-02-08 13:44:22] Resolving deltas:         68% (202/297)
+[2021-02-08 13:44:22] Resolving deltas:         69% (205/297)
+[2021-02-08 13:44:22] Resolving deltas:         70% (208/297)
+[2021-02-08 13:44:22] Resolving deltas:         71% (211/297)
+[2021-02-08 13:44:22] Resolving deltas:         72% (214/297)
+[2021-02-08 13:44:22] Resolving deltas:         73% (217/297)
+[2021-02-08 13:44:22] Resolving deltas:         74% (220/297)
+[2021-02-08 13:44:22] Resolving deltas:         75% (223/297)
+[2021-02-08 13:44:22] Resolving deltas:         76% (226/297)
+[2021-02-08 13:44:22] Resolving deltas:         77% (229/297)
+[2021-02-08 13:44:22] Resolving deltas:         78% (232/297)
+[2021-02-08 13:44:22] Resolving deltas:         79% (235/297)
+[2021-02-08 13:44:22] Resolving deltas:         80% (238/297)
+[2021-02-08 13:44:22] Resolving deltas:         81% (241/297)
+[2021-02-08 13:44:22] Resolving deltas:         82% (244/297)
+[2021-02-08 13:44:22] Resolving deltas:         83% (247/297)
+[2021-02-08 13:44:22] Resolving deltas:         84% (250/297)
+[2021-02-08 13:44:22] Resolving deltas:         85% (253/297)
+[2021-02-08 13:44:22] Resolving deltas:         86% (256/297)
+[2021-02-08 13:44:22] Resolving deltas:         87% (259/297)
+[2021-02-08 13:44:22] Resolving deltas:         88% (262/297)
+[2021-02-08 13:44:22] Resolving deltas:         89% (265/297)
+[2021-02-08 13:44:22] Resolving deltas:         90% (268/297)
+[2021-02-08 13:44:22] Resolving deltas:         91% (271/297)
+[2021-02-08 13:44:22] Resolving deltas:         92% (274/297)
+[2021-02-08 13:44:22] Resolving deltas:         93% (277/297)
+[2021-02-08 13:44:22] Resolving deltas:         94% (280/297)
+[2021-02-08 13:44:22] Resolving deltas:         95% (283/297)
+[2021-02-08 13:44:22] Resolving deltas:         96% (286/297)
+[2021-02-08 13:44:22] Resolving deltas:         97% (289/297)
+[2021-02-08 13:44:22] Resolving deltas:         98% (292/297)
+[2021-02-08 13:44:22] Resolving deltas:         99% (295/297)
+[2021-02-08 13:44:22] Resolving deltas:        100% (297/297)
+[2021-02-08 13:44:22] Creating local branch master
+[2021-02-08 13:44:23] Resetting hard
+[2021-02-08 13:44:23] Performing Projects Import
+[2021-02-08 13:44:23] Importing projects from /Users/karansingh/tdt4100/git/v2021
+[2021-02-08 13:44:23] Importing project foreksempel
+[2021-02-08 13:44:23] Importing project minegenkode
+[2021-02-08 13:44:23] Importing project lf
+[2021-02-08 13:44:23] Importing project todolist-example
+[2021-02-08 13:44:23] Importing project ovinger
+[2021-02-08 13:44:24] 
+[2021-02-15 09:23:31] Executing startup tasks
+[2021-02-15 09:23:31] OpenJDK Runtime Environment 15.0.2+7-27
+[2021-02-15 09:23:31] Product user.products.tdt4100.2020-12
+[2021-02-15 09:23:31] Workspace /Users/karansingh/IT/tdt4100v2020-master/ws
+[2021-02-15 09:23:31] Project com.github.user.project.tdt4100-v2020.master
+[2021-02-15 09:23:31] Bundle org.eclipse.oomph.setup 1.18.0.v20201230-0937, build=4985, branch=6a3a5fc19e837c1408149bd66af770f2cb5a00c0
+[2021-02-15 09:23:31] Bundle org.eclipse.oomph.setup.core 1.19.0.v20210111-1121, build=4985, branch=6a3a5fc19e837c1408149bd66af770f2cb5a00c0
+[2021-02-15 09:23:31] Bundle org.eclipse.oomph.setup.git 1.18.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-15 09:23:31] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-15 09:23:31] Bundle org.eclipse.oomph.setup.projects 1.13.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-15 09:23:31] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.HOVER_BACKGROUND = 52,57,61
+[2021-02-15 09:23:31] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.HOVER_FOREGROUND = 238,238,238
+[2021-02-15 09:23:31] 
+[2021-02-18 13:24:59] Executing startup tasks
+[2021-02-18 13:24:59] OpenJDK Runtime Environment 15.0.2+7-27
+[2021-02-18 13:24:59] Product user.products.tdt4100.2020-12
+[2021-02-18 13:24:59] Workspace /Users/karansingh/IT/tdt4100v2020-master/ws
+[2021-02-18 13:24:59] Project com.github.user.project.tdt4100-v2020.master
+[2021-02-18 13:24:59] Bundle org.eclipse.oomph.setup 1.18.0.v20201230-0937, build=4985, branch=6a3a5fc19e837c1408149bd66af770f2cb5a00c0
+[2021-02-18 13:24:59] Bundle org.eclipse.oomph.setup.core 1.19.0.v20210111-1121, build=4985, branch=6a3a5fc19e837c1408149bd66af770f2cb5a00c0
+[2021-02-18 13:24:59] Bundle org.eclipse.oomph.setup.git 1.18.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-18 13:24:59] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-18 13:24:59] Bundle org.eclipse.oomph.setup.projects 1.13.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-18 13:24:59] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.experimental.references = false
+[2021-02-18 13:24:59] Performing Preference /instance/org.eclipse.jdt.ui/java.codemining.experimental.references.method = false
+[2021-02-18 13:24:59] 
+[2021-02-27 13:03:56] Executing startup tasks
+[2021-02-27 13:03:58] OpenJDK Runtime Environment 15.0.2+7-27
+[2021-02-27 13:03:58] Product user.products.tdt4100.2020-12
+[2021-02-27 13:03:58] Workspace /Users/karansingh/IT/tdt4100v2020-master/ws
+[2021-02-27 13:03:58] Project com.github.user.project.tdt4100-v2020.master
+[2021-02-27 13:03:58] Bundle org.eclipse.oomph.setup 1.18.0.v20201230-0937, build=4985, branch=6a3a5fc19e837c1408149bd66af770f2cb5a00c0
+[2021-02-27 13:03:58] Bundle org.eclipse.oomph.setup.core 1.19.0.v20210111-1121, build=4985, branch=6a3a5fc19e837c1408149bd66af770f2cb5a00c0
+[2021-02-27 13:03:58] Bundle org.eclipse.oomph.setup.git 1.18.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-27 13:03:58] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-27 13:03:58] Bundle org.eclipse.oomph.setup.projects 1.13.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-27 13:03:58] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.HOVER_BACKGROUND = 52,57,61
+[2021-02-27 13:03:58] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.HOVER_FOREGROUND = 238,238,238
+[2021-02-27 13:03:59] 
+[2021-03-13 12:51:56] Executing startup tasks
+[2021-03-13 12:51:56] OpenJDK Runtime Environment 15.0.2+7-27
+[2021-03-13 12:51:56] Product user.products.tdt4100.2020-12
+[2021-03-13 12:51:56] Workspace /Users/karansingh/IT/tdt4100v2020-master/ws
+[2021-03-13 12:51:56] Project com.github.user.project.tdt4100-v2020.master
+[2021-03-13 12:51:56] Bundle org.eclipse.oomph.setup 1.18.0.v20201230-0937, build=4985, branch=6a3a5fc19e837c1408149bd66af770f2cb5a00c0
+[2021-03-13 12:51:56] Bundle org.eclipse.oomph.setup.core 1.19.0.v20210111-1121, build=4985, branch=6a3a5fc19e837c1408149bd66af770f2cb5a00c0
+[2021-03-13 12:51:56] Bundle org.eclipse.oomph.setup.git 1.18.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-03-13 12:51:56] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-03-13 12:51:56] Bundle org.eclipse.oomph.setup.projects 1.13.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-03-13 12:51:56] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.HOVER_BACKGROUND = 52,57,61
+[2021-03-13 12:51:56] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.HOVER_FOREGROUND = 238,238,238
+[2021-03-13 12:51:56] 
+[2021-03-13 13:13:53] Executing startup tasks
+[2021-03-13 13:13:53] OpenJDK Runtime Environment 15.0.2+7-27
+[2021-03-13 13:13:53] Product user.products.tdt4100.2020-12
+[2021-03-13 13:13:53] Workspace /Users/karansingh/IT/tdt4100v2020-master/ws
+[2021-03-13 13:13:53] Project com.github.user.project.tdt4100-v2020.master
+[2021-03-13 13:13:53] Bundle org.eclipse.oomph.setup 1.18.0.v20201230-0937, build=4985, branch=6a3a5fc19e837c1408149bd66af770f2cb5a00c0
+[2021-03-13 13:13:53] Bundle org.eclipse.oomph.setup.core 1.19.0.v20210111-1121, build=4985, branch=6a3a5fc19e837c1408149bd66af770f2cb5a00c0
+[2021-03-13 13:13:53] Bundle org.eclipse.oomph.setup.git 1.18.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-03-13 13:13:53] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-03-13 13:13:53] Bundle org.eclipse.oomph.setup.projects 1.13.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-03-13 13:13:53] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.HOVER_BACKGROUND = 52,57,61
+[2021-03-13 13:13:53] Performing Preference /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.HOVER_FOREGROUND = 238,238,238
+[2021-03-13 13:13:53] 
